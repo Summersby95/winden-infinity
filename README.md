@@ -1,45 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Winden
 
-Welcome USER_NAME,
+## A Story Game
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Contents
+---
 
-## Gitpod Reminders
+* UX
+* Technologies
+* Features
+* Testing
+* Bugs
+* Deployment
+* Credit
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## UX
+---
 
-`python3 -m http.server`
+### Project Goals
 
-A blue button should appear to click: *Make Public*,
+The goal of this project was to make a game which focused on player choice and which plays out differently depending on the choices the player makes. The story in this game is a loose adaptation of the Netflix series Dark, heavily simplified in order to make it manageable.
 
-Another blue button should appear to click: *Open Browser*.
+### User Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As a user, I want to be able to play a story driven game.
+* As a user, I want to be able to make choices as part of the game and I want my choices to impact the story of the game.
+* As a user, I want to be able to save my game and continue where I left off later.
+* As a user, I want each scene to be descriptive and have images to set the scene for me and help immerse me in the game.
+* As a user, I want to be able to contact the game maker with suggestions or feedback I have about the game.
 
-A blue button should appear to click: *Make Public*,
+### Site Owner Goals
 
-Another blue button should appear to click: *Open Browser*.
+* As a site owner, I want the game and controls to be easy to understand and use.
+* As a site owner, I want the color scheme and layout of the game to be reflective of the game.
+* As a site owner, I want to communicate the story of *Dark* effectively and coherently.
+* As a site owner, I want everything on the site to be contained on one web page.
+* As a site owner, I want the users to be able to communicate with me if they want and find out more information about the series/game.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Requirements and Expectations
 
-## Updates Since The Instructional Video
+#### Requirements
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Game scene area that changes when users use controls
+* Easy to use controls
+* Story for game that adapts based on player choices
+* Images for scenes that help put player in setting
+* Site owner contact form
+* Clear page design and outline
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The games that I have enjoyed most growing up have been games that focus on story and player choice and so I decided that I wanted my game to focus on dialogue and text rather than complex animations and art which would take too much time to do. In this regard I looked at old school text based role playing games like *Zork*, *A Hitchiker's Guide To The Galaxy* and others. However, I also focused on modern examples of the genre. In particular, games like TellTale Games'  *The Wolf Among Us*, *The Walking Dead*, *Tales From The Borderlands* as well as games like **Disco Elysium** and RPG classics like the *Fallout* and *Skyrim* series. The TellTale Games template felt like a good fit for the game I envisioned, their focus on the story, the scenes and the dialogue options within that matched the project I envisioned.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The next step of course was to craft a story. Initially I looked at Fantasy settings where I could encorporate different features like class selection, combat, inventory systems, weapons and spells. However, on further consideration I realised that the scope and size of such a setting would be difficult to manage given the time frame and so I decided not to persue such a setting. Instead I decided I wanted to simply focus on narrative driven game where dialogue choices would dictate the flow of the game. At the time, I was engrossed in a Netflix show called *Dark*. *Dark* is a sci-fi series, with such elements as time travel, quantum theory and the likes abound, but it never gets too carried away with the complex scinence surrounding it's central plot, instead focusing on the interactions between it's characters and the consequences of the decisions they make. I felt it was a perfect story to adapt for my game.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+However, the story of *Dark* is extremely complex and would be difficult to explain outside of the context of a game, so I was forced to heavily simplify the main story to keep the size and scope of the game manageable and focus on key events and scenarios rather than delving too heavily into it's complex story.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
-
-Happy coding!
