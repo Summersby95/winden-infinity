@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Winden - A Story Game</title>
+</head>
+<body>
+    <main>
+        <!-- header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">
+                        <img src="assets/images/infinity-logo.png" alt="Game Logo" width="30" height="24">
+                        Winden
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- game section -->
+        <section class="container-fluid justify-content-center">
+            <div class="game-container d-flex justify-content-center">
+                <canvas id="game-canvas"></canvas>
+            </div>
+            <div class="controls-container row">
+                <div class="control-div col-lg-6 col-md-6 col-sm-12">
+                    <button class="btn control-button">Button 1</button>
+                </div>
+                <div class="control-div col-lg-6 col-md-6 col-sm-12">
+                    <button class="btn control-button">Button 2</button>
+                </div>
+                <div class="control-div col-lg-6 col-md-6 col-sm-12">
+                    <button class="btn control-button">Button 3</button>
+                </div>
+                <div class="control-div col-lg-6 col-md-6 col-sm-12">
+                    <button class="control-button btn">Button 4</button>
+                </div>
+            </div>
+        </section>
+        <!-- footer section -->
+        <footer class="container-fluid justify-content-center footer-container">
+            <h5>Credit <i class="fas fa-copyright"></i> 2021 James Summersby</h5>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6a9c92e46f.js" crossorigin="anonymous"></script>
+</body>
+</html>
