@@ -1,0 +1,92 @@
+{
+    "locations": [
+        {
+            "locationId": 0,
+            "locationName": "Kahnwald House",
+            "connectedLocations": [1, 11, 9]
+        },
+        {
+            "locationId": 1,
+            "locationName": "Nielsen House",
+            "connectedLocations": [0, 2, 9]
+        },
+        {
+            "locationId": 2,
+            "locationName": "Police Station",
+            "connectedLocations": [1, 10, 5]
+        },
+        {
+            "locationId": 3,
+            "locationName": "Lake",
+            "connectedLocations": [4, 8]
+        },
+        {
+            "locationId": 4,
+            "locationName": "Bunker",
+            "connectedLocations": [3]
+        },
+        {
+            "locationId": 5,
+            "locationName": "Nuclear Power Plant",
+            "connectedLocations": [2, 10, 8]
+        },
+        {
+            "locationId": 6,
+            "locationName": "Cave",
+            "connectedLocations": [5, 8, 6]
+        },
+        {
+            "locationId": 7,
+            "locationName": "Portal",
+            "connectedLocations": [6]
+        },
+        {
+            "locationId": 8,
+            "locationName": "Forest",
+            "connectedLocations": [5, 3, 6]
+        },
+        {
+            "locationId": 9,
+            "locationName": "School",
+            "connectedLocations": [8, 0, 1]
+        },
+        {
+            "locationId": 10,
+            "locationName": "Hospital",
+            "connectedLocations": [12, 2, 5]
+        },
+        {
+            "locationId": 11,
+            "locationName": "Old Folks Home",
+            "connectedLocations": [0, 12]
+        },
+        {
+            "locationId": 12,
+            "locationName": "Clock Shop",
+            "connectedLocations": [10, 11]
+        }
+    ],
+    "story": {
+        "sequences": [
+            {
+                "sequenceId": 0,
+                "sequenceName": "Breakfast with Mama",
+                "locationId": 0,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "November 4th 2019",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
+            }    
+        ]
+        
+    }
+}
