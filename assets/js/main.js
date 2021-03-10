@@ -83,3 +83,10 @@ function buildScene(scene) {
     ctx.textAlign = "center";
     ctx.fillText(scene.text, canvas.width/2, (canvas.height*0.9));
 }
+
+function processControl(controlVal) {
+    if (currentScene === undefined) {
+        currentLocationId = controlVal;
+        startGame();
+    }
+}
