@@ -42,7 +42,6 @@ body {
 #game-canvas {
     height: 50vh;
     width: 70%;
-    background-color: green;
 }
 
 .control-button {
