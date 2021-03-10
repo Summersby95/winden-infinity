@@ -3,67 +3,80 @@
         {
             "locationId": 0,
             "locationName": "Kahnwald House",
-            "connectedLocations": [1, 11, 9]
+            "connectedLocations": [1, 11, 9],
+            "image": "kahnwald_house_white.png"
         },
         {
             "locationId": 1,
             "locationName": "Nielsen House",
-            "connectedLocations": [0, 2, 9]
+            "connectedLocations": [0, 2, 9],
+            "image": "nielsen_house_white.png"
         },
         {
             "locationId": 2,
             "locationName": "Police Station",
-            "connectedLocations": [1, 10, 5]
+            "connectedLocations": [1, 10, 5],
+            "image": "police_station_white.png"
         },
         {
             "locationId": 3,
             "locationName": "Lake",
-            "connectedLocations": [4, 8]
+            "connectedLocations": [4, 8],
+            "image": "lake_white.png"
         },
         {
             "locationId": 4,
             "locationName": "Bunker",
-            "connectedLocations": [3]
+            "connectedLocations": [3],
+            "image": "bunker_white.png"
         },
         {
             "locationId": 5,
             "locationName": "Nuclear Power Plant",
-            "connectedLocations": [2, 10, 8]
+            "connectedLocations": [2, 10, 8],
+            "image": "nuclear_plant_white.png"
         },
         {
             "locationId": 6,
             "locationName": "Cave",
-            "connectedLocations": [5, 8, 6]
+            "connectedLocations": [5, 8],
+            "image": "cave_white.png"
         },
         {
             "locationId": 7,
             "locationName": "Portal",
-            "connectedLocations": [6]
+            "connectedLocations": [6],
+            "image": "portal_white.png"
         },
         {
             "locationId": 8,
             "locationName": "Forest",
-            "connectedLocations": [5, 3, 6]
+            "connectedLocations": [5, 3, 6],
+            "image": "forest_white.png"
         },
         {
             "locationId": 9,
             "locationName": "School",
-            "connectedLocations": [8, 0, 1]
+            "connectedLocations": [8, 0, 1],
+            "image": "school_white.png"
         },
         {
             "locationId": 10,
             "locationName": "Hospital",
-            "connectedLocations": [12, 2, 5]
+            "connectedLocations": [12, 2, 5],
+            "image": "hospital_white.png"
         },
         {
             "locationId": 11,
             "locationName": "Old Folks Home",
-            "connectedLocations": [0, 12]
+            "connectedLocations": [0, 12],
+            "image": "retirement_home_white.png"
         },
         {
             "locationId": 12,
             "locationName": "Clock Shop",
-            "connectedLocations": [10, 11]
+            "connectedLocations": [10, 11],
+            "image": "clock_shop_white.png"
         }
     ],
     "story": {
