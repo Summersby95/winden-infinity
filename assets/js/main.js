@@ -1,3 +1,12 @@
+/* jshint esversion: 6 */
+
+let gameData;
+let currentDay = 1;
+let currentLocationId = 0;
+let currentSequenceId = 0;
+let currentLocation;
+let currentSequence;
+let currentScene;
 function getGameInfo(callbackFunction) {
     $.getJSON("assets/js/story.json", (gameJson) => {
         gameData = gameJson;
