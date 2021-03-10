@@ -48,3 +48,24 @@ function startGame() {
     buildOptions(options);
     buildScene(scene);
 }
+
+function buildOptions(options) {
+    let optionQty = options.length;
+    let controlsTemplate = ``;
+
+    $.each(options, (optionIndex, option) => { 
+        let buttonTemplate = `
+            <div class="control-div col-lg-6 col-md-6 col-sm-12">
+                <button class="btn control-button" value="${option.optionId}">
+                    ${option.optionText}
+                </button>
+            </div>`;
+        
+        controlsTemplate += buttonTemplate;
+    });
+
+    $(".controls-container").html(controlsTemplate);
+    $(".control-button").click(function() {
+        processControl($(this).val());
+    });
+}
