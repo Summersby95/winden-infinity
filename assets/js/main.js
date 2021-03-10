@@ -7,6 +7,14 @@ let currentSequenceId = 0;
 let currentLocation;
 let currentSequence;
 let currentScene;
+
+$(document).ready(function() {
+    getGameInfo(startGame);
+    $("#game-canvas").attr("width", $("#game-canvas").width());
+    $("#game-canvas").attr("height", $("#game-canvas").height());
+});
+
+
 function getGameInfo(callbackFunction) {
     $.getJSON("assets/js/story.json", (gameJson) => {
         gameData = gameJson;
