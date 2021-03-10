@@ -69,3 +69,17 @@ function buildOptions(options) {
         processControl($(this).val());
     });
 }
+
+function buildScene(scene) {
+    canvas = $("#game-canvas")[0];
+    ctx = canvas.getContext("2d");
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    sceneImage = new Image();
+    sceneImage.src = `assets/images/${scene.image}`;
+    sceneImage.onload = () => ctx.drawImage(sceneImage, (canvas.width*0.2), 0, (canvas.width*0.6), (canvas.height*0.6));
+    ctx.font = "30px Montserrat";
+    ctx.fillStyle = "white";
+    ctx.textAlign = "center";
+    ctx.fillText(scene.text, canvas.width/2, (canvas.height*0.9));
+}
