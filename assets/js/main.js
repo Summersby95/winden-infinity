@@ -45,7 +45,7 @@ function startGame() {
             "text": `You are at the ${currentLocation.locationName}`
         };
     } else {
-        let optionIds = currentSequence.scenes[currentScene].options;
+        let optionIds = currentSequence.scenes[currentSceneId].options;
         
         $.each(optionIds, (optionIndex, option) => {
             options.push({
@@ -53,6 +53,11 @@ function startGame() {
                 "optionText": option.optionText
             });
         });
+
+        scene = {
+            "image": currentSequence.scenes[currentSceneId].sceneImage,
+            "text": currentSequence.scenes[currentSceneId].text
+        };
     }
     buildOptions(options);
     buildScene(scene);
