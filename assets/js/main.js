@@ -30,7 +30,7 @@ function startGame() {
     let options = [];
     let scene;
     
-    if (currentScene === undefined) {
+    if (currentSceneId === undefined) {
         let locationIds = currentLocation.connectedLocations;
 
         $.each(locationIds, (indexInArray, locationId) => { 
