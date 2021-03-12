@@ -4,6 +4,7 @@ let gameData;
 let currentDay = 1;
 let currentLocationId = 0;
 let currentSequenceId = 0;
+let currentSceneId = 0;
 let currentLocation;
 let currentSequence;
 let currentScene;
