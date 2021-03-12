@@ -121,8 +121,15 @@ function buildScene(scene) {
 }
 
 function processControl(controlVal) {
-    if (currentScene === undefined) {
+    if (currentSceneId === undefined) {
         currentLocationId = controlVal;
-        startGame();
+    } else {
+        if (controlVal == -1) {
+            currentSceneId = undefined;
+            currentSequenceId = undefined;
+        } else {
+            currentSceneId = controlVal;
+        }
     }
+    startGame();
 }
