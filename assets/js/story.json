@@ -297,8 +297,13 @@
                         "sceneImage": "police_officer_head_white.png",
                         "options": [
                             {
-                                "optionText": "Okay",
+                                "optionText": "I'm sick",
                                 "nextScene": 2,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I needed some space",
+                                "nextScene": 3,
                                 "dependantVariables": []
                             }
                         ]
