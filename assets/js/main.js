@@ -3,11 +3,12 @@
 let gameData;
 let currentDay = 1;
 let currentLocationId = 0;
-let currentSequenceId = 0;
-let currentSceneId = 0;
+let currentSequenceId;
+let currentSceneId;
 let currentLocation;
 let currentSequence;
 let currentScene;
+let completedSequences = [];
 
 $(document).ready(function() {
     getGameInfo(startGame);
@@ -38,6 +39,11 @@ function startGame() {
                 "optionId": locationId,
                 "optionText": gameData.locations[locationId].locationName
             });
+        });
+
+        options.push({
+            "optionId": -1,
+            "optionText": `Enter ${currentLocation.locationName}`
         });
 
         scene = {
@@ -122,9 +128,25 @@ function buildScene(scene) {
 
 function processControl(controlVal) {
     if (currentSceneId === undefined) {
-        currentLocationId = controlVal;
+        if (controlVal == -1) {
+            let sequenceSearch = $.grep(gameData.story.sequences, (sequence, seqIndex) => {
+                return sequence.locationId === currentLocationId; 
+            });
+
+            currentSequence = sequenceSearch[0];
+            currentSequenceId = currentSequence.sequenceId;
+
+            if (sequenceSearch.length === 0 || completedSequences.includes(sequenceSearch[0].sequenceId)) {
+                currentSceneId = currentSequence.scenes.length-1;
+            } else {
+                currentSceneId = 0;
+            }
+        } else {
+            currentLocationId = controlVal;
+        }
     } else {
         if (controlVal == -1) {
+            completedSequences.push(currentSequenceId);
             currentSceneId = undefined;
             currentSequenceId = undefined;
         } else {
