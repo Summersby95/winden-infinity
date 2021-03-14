@@ -1054,6 +1054,134 @@
                         ]
                     }
                 ]
+            },
+            {
+                "sequenceId": 5,
+                "sequenceName": "Bartosz Encounter",
+                "locationId": 3,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "You walk along the lake for about a kilometer when you see a familiar face. Bartosz stands by the edge of the lake, skipping stones into the lake's center. He eyes you approaching. 'Hey Jonas, welcome back to crazy town!'",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Hey Bartosz",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "'Sorry, I shouldn't have said crazy town. I didn't mean anything by it!'",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "It's okay",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Please don't call it that",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "'Yeah, sorry about that.' remarks Bartosz, unapologetically. 'We missed you here over the summer man! It was so boring without you!'",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "What did you get up to?",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I don't care",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "'Ohh, so much! Magnus, Martha and I went to a rock concert, we went camping down here by the lake, smoked a lot of pot! Ohh and Martha and I began hooking up!'",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "Sounds great",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I'm going to leave now",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "'Ohh you don't have to be sarcastic, I know you had a thing for her! I'm sorry man, but you weren't here and one thing lead to another! We'll find you someone soon though, don't sweat it. Ohh and I think Magnus is fucking Francizka, can you believe that?'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "No I can't",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Makes sense they've always been eyeing each other",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "'I know right! Ohh and I got a new Xbox! You should come over sometime and play Gears of War with me! It might help take your mind off everything!'",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Sure",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Think I'll pass",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "'Anyway, I gotta go man, Mama is cooking dinner so I better get home. See you later man!'",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "See you later",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "You walk the length of the lake and arrive back where you started",
+                        "sceneImage": "lake_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
             }       
         ]
         
