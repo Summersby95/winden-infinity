@@ -478,6 +478,131 @@
                         ]
                     }
                 ]
+            },
+            {
+                "sequenceId": 2,
+                "sequenceName": "Charlotte Doppler",
+                "locationId": 2,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "As you approach the Police Station a short haired, middle aged woman exits the front door. She seems troubled. You recognise her as Charlotte Doppler.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "Charlotte looks up from the paper she's holding as she spots you. 'Hello Jonas'. The smile she wears seems forced.",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "Hi Charlotte",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "'What are you doing here?' asks Charlotte.",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "I wanted to ask how Erik's investigation is going",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Just passing through",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "'Ohh, well you know I can't discuss an active investigation with a civilian.' Charlotte looks curiously at you. 'Why do you ask? Do you know something that could help us?'",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "Yes, I'd like to confess. I killed Erik.",
+                                "nextScene": "Jail End",
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "No I'd just like to know what happened",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "Charlotte sighs. 'I'm afraid we don't know anymore than what's already common knowledge. Erik left home on the evening of November 1st to go into the forest and he hasn't been seen since.'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "'We were told by a few of his friends that he liked to frequent the cave in the middle of the forest but that cave is a maze and I'm afraid if he did go in there that it would be nearly impossible to find him.",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "'His parents said he was wearing a yellow shirt, blue jeans and a necklace with a blue pendant on the end. So, if you see someone matching that description, please tell us immediately'",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "'I have to go Jonas, I have more witnesses to question' Charlotte hurriedly walks off.",
+                        "sceneImage": "walk.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "The station is closed.",
+                        "sceneImage": "police_station_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
             }      
         ]
         
