@@ -1182,7 +1182,164 @@
                         ]
                     }
                 ]
-            }       
+            },
+            {
+                "sequenceId": 6,
+                "sequenceName": "Helge Encounter",
+                "locationId": 10,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "As you enter the hospital you immediately recognise a faint but clear sense of death lingering to every surface of the building. As you walk, you notice an open door up ahead.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Approach",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }, 
+                            {
+                                "optionText": "Leave hospital",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "You peer in the door and see an old man pacing around the room. He hears you enter, qucikly turns to face you. He appears to be mumbling to himself as he approaches you.",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "As the man approaches you see his face is heavily disfigured. You realize Helge Doppler stands before you. 'It's going to happen again' he whispers softly, directing it at no one in particular. 'It's going to happen again' he repeats.",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "What's going to happen again?",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Leave",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "'Is it already too late?' The man replies.",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "Is it too late for what?",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "'He must be stopped.' The man stutters. 'The children… the children.'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "What children? Who must be stopped?",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Leave",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "'The White Devil….. Noah!' The man clenches your shoulders and leans in. 'You must stop him….. You must!'",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Who is Noah? What is he going to do?",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Leave",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "Before Helge can respond, two nurses appear. 'What are you doing here? You cannot be here, leave immediately!'",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "No",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "'Leave now or I am calling the police!' screams one of the nurses.",
+                        "sceneImage": "lake_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "No",
+                                "nextScene": "Jail End",
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "You begin walking back down the hall. All the while you hear Helge wailing. 'It's going to happen again! Sic Mundus Creatus Est!'",
+                        "sceneImage": "lake_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 9,
+                        "text": "Visiting hours for the hospital are over.",
+                        "sceneImage": "hospital_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
+            }     
         ]
         
     }
