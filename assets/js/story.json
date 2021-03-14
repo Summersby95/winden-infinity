@@ -929,7 +929,132 @@
                         ]
                     }
                 ]
-            }      
+            },
+            {
+                "sequenceId": 4,
+                "sequenceName": "Alexander Tiedeman Encounter",
+                "locationId": 5,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "As you approach the gate entrance to the plant you see a man pull up to the gate in a new Mercedes car. The gate opens for him immediately. As he passes you, he stops and rolls down his window. Alexander Tiedeman leans his head out of the car. 'Hello Jonas, here looking for a job?' He laughs.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Just having a look around",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I am",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "'Ohh I'm afraid I can't let you in to walk around Jonas. Nuclear power plants are dangerous places. I'll try and arrange a visit for you sometime in the future.'",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "'That's great to hear!' remarks Alexander, smiling. 'It's great to see another generation interested in Nuclear energy.'",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "'Unfortunately, as you've probably heard. The plant is being decommissioned now in a few days.' Alexander sighs. 'The world can no longer stomach the thought of Nuclear power. A shame really, it's one of the few viable options for a clean future.'",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "What will happen to the plant?",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I always thought it was an eyesore in the town",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "'It will be decommissioned, and all the staff that it supports will have to be let go. It's very unfortunate.'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "'It has provided a living to many in this town over the years, including your mother.' Alexander replies angrily.",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "'Yes, it really is quite sad' Alexander sounds sad. 'Anyway,  I've lots of things to take care of before the shut down process can begin. Call over sometime, Regina and I bought Bartosz a new console, I'm sure he's dying to have you over to play it.'",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "'See you around Jonas' Alexander drives through the gates and they shut behind him.",
+                        "sceneImage": "nuclear_plant_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "The gates to the plant are shut and there is no other way to enter",
+                        "sceneImage": "nuclear_plant_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
+            }       
         ]
         
     }
