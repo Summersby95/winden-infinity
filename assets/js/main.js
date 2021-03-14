@@ -130,7 +130,7 @@ function processControl(controlVal) {
     if (currentSceneId === undefined) {
         if (controlVal == -1) {
             let sequenceSearch = $.grep(gameData.story.sequences, (sequence, seqIndex) => {
-                return sequence.locationId === currentLocationId; 
+                return sequence.locationId == currentLocationId; 
             });
 
             currentSequence = sequenceSearch[0];
@@ -142,7 +142,7 @@ function processControl(controlVal) {
                 currentSceneId = 0;
             }
         } else {
-            currentLocationId = controlVal;
+            currentLocationId = parseInt(controlVal);
         }
     } else {
         if (controlVal == -1) {
