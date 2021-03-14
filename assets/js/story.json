@@ -603,6 +603,332 @@
                         ]
                     }
                 ]
+            }, 
+            {
+                "sequenceId": 3,
+                "sequenceName": "Martha Encounter",
+                "locationId": 8,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "You enter the forest, the terrain is mostly easy and forgiving. The forest appears empty, you hear only the odd chirps of birds.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "You continue strolling through the forest for a few minutes when you hear a branch break somewhere in the distance.",
+                        "sceneImage": "police_officer_head_white.png",
+                        "options": [
+                            {
+                                "optionText": "Investigate",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Ignore",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "As you approach the noise you began to make out a familiar figure, Martha Nielsen",
+                        "sceneImage": "suspicious_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "Martha hears you as you approach and looks up from the book in her hand to catch your gaze.",
+                        "sceneImage": "character_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "'Jonas!' She jumps up from the stump she's sitting in and runs to you open armed. Before you know it she has you in a tight embrace.",
+                        "sceneImage": "perfume_white.png",
+                        "options": [
+                            {
+                                "optionText": "Embrace back",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Don't",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "'I missed you so much all summer! It just wasn't the same without you around'",
+                        "sceneImage": "angry-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "I missed you too",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I needed space from this place",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "Martha stares at you quizzingly. 'Where were you? Bartosz said you were in France but I know that was bullshit.'",
+                        "sceneImage": "shadow-follower.png",
+                        "options": [
+                            {
+                                "optionText": "I was in Frace visiting relatives",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I was in a psychiatric hospital",
+                                "nextScene": 9,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "Martha frowns. 'You're not convincing me. Why can't you just tell me where you really were? I know it was hard after your dad died but I could've helped and been there for you but you just shut me out!'",
+                        "sceneImage": "arrest.png",
+                        "options": [
+                            {
+                                "optionText": "I really was in France",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I was in a psychiatric hospital",
+                                "nextScene": 9,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "'Fine, don't tell me, hide secrets. I thought we were closer than that.' A tear comes to Martha's eye as she storms off.",
+                        "sceneImage": "police_officer_head_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 9,
+                        "text": "'What?' Martha asks disbelieving. 'No, it makes sense, you were so distraught after your father's death. Jonas, I'm so sorry. That must have been so hard on you.'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "It was",
+                                "nextScene": 10,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 10,
+                        "text": "'We can talk about it if you want.'",
+                        "sceneImage": "magnifying-glass.png",
+                        "options": [
+                            {
+                                "optionText": "I want to talk about it",
+                                "nextScene": 11,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I don't want to talk about it",
+                                "nextScene": 14,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 11,
+                        "text": "'What was it like?'",
+                        "sceneImage": "idea.png",
+                        "options": [
+                            {
+                                "optionText": "It was hard, I was so angry at everything and everyone",
+                                "nextScene": 12,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "It was fine",
+                                "nextScene": 14,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 12,
+                        "text": "'That sounds horrible. I know how close you were to your father'",
+                        "sceneImage": "city-car.png",
+                        "options": [
+                            {
+                                "optionText": "I miss him every day",
+                                "nextScene": 13,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I've forgotten him already",
+                                "nextScene": 14,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 13,
+                        "text": "'I'm so sorry Jonas'",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "It's okay, I'm glad you're here",
+                                "nextScene": 15,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 14,
+                        "text": "'Ohh okay' Martha looks at you oddly.",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "Say nothing",
+                                "nextScene": 15,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 15,
+                        "text": "'Can I ask you something Jonas?'",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "Of course",
+                                "nextScene": 16,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "No",
+                                "nextScene": 19,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 16,
+                        "text": "'Was what happened between us at the lake at the start of the summer real?' Martha looks away, unsure.",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "Yes, absolutely",
+                                "nextScene": 17,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "It meant nothing to me",
+                                "nextScene": 19,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 17,
+                        "text": "'I think about it a lot.' Martha at you. 'But you were gone all summer, Bartosz was the only one there for me. We're together now. I'm sorry if that makes you uncomfortable.'",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "I understand, you don't need to explain yourself",
+                                "nextScene": 18,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I never liked you anyway",
+                                "nextScene": 19,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 18,
+                        "text": "'Thank you' Martha sighs. 'I better go, people will start to wonder where I am'",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 19,
+                        "text": "'Ohh okay' Martha looks disheartened.",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 20,
+                        "text": "'See you around Jonas' Martha walks away.",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 21,
+                        "text": "You wander the forest for a while but find nothing of note.",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
             }      
         ]
         
