@@ -1339,7 +1339,132 @@
                         ]
                     }
                 ]
-            }     
+            },
+            {
+                "sequenceId": 7,
+                "sequenceName": "Ines Encounter",
+                "locationId": 11,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "You enter the retirement home and approach the reception desk. A nurse turns to face you. 'Here to see your grandmother Jonas? She's just down the hall to the right.'",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Proceed down hall",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "You walk down the familiar hall and come across a familiar door. You knock on it and a few seconds later your grandmother appears at the door. 'Jonas! What a pleasant surprise, please come in!'",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "Hi Granny",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "'It's so nice to see you! I missed you over the summer, your mother told me you were away for a while. Is everything okay?'",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "I spent the summer in a psychiatric hospital",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "'Ohh' Ines Kahnwald takes your hand in hers. 'I'm sorry to hear that Jonas. I know how sad you were after your father died.'",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "It's been hard",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I'm over it",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "'I know. Your dad was a wonderful man. I'm glad I got to spend the time with him that I did. You know when he arrived at the hospital, 33 years ago, he was so confused and depressed. He had come such a long way since then.'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "You never told me who dad's real parents were",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Yeah, I still can't believe what happened",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "'I don't know who they were, your father never told me what really happened the day before he arrived. I tried asking him many times but he never wanted to talk about it. I think it still haunted him deep down, maybe that was what caused him to do what he did'",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Yes, maybe it is",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "'You should run along deary, find comfort in your friends, in Martha and Magnus and Bartosz.'",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "'Speaking of which, that Mikkel kid looks more and more like your father did at his age every day!'",
+                        "sceneImage": "lake_white.png",
+                        "options": [
+                            {
+                                "optionText": "Leave",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "Visiting hours for the retirement home are over.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
+            }         
         ]
         
     }
