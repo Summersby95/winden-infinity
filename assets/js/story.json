@@ -1464,7 +1464,204 @@
                         ]
                     }
                 ]
-            }         
+            },
+            {
+                "sequenceId": 8,
+                "sequenceName": "Announcement/ Cave Adventure",
+                "locationId": 9,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "As you walk through the school yard you feel the glare of every person staring at you.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "As you climb the steps to the school entrance you hear a shout. 'Hey Jonas!'",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "Turn to see",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "You turn around and see Bartosz, Martha and Magnus approaching. 'Long time no see!' roars Bartosz as he wraps you in a hug.",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "Hey, good to see you guys!",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "Martha looks at you awkwardly and mutters a brief 'Hey' while avoiding eye contact. 'It's good to see you man, it's been a long summer without you!'",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "I've missed you guys too",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I needed to get away from this place for a while",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "'It's all good man!' As Bartosz disembraces you he quickly and deliberately turns around and gives Martha a kiss. You feel your stomach lurch as he does.'Knock it off you two please!' remarks Magnus in disgust. 'He hasn't been able to keep away from my sister all summer Jonas, it's been torture.'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "'Haha stop teasing Magnus! Besides you've been busy too with Franciszka amirite?!' 'Knock it off Bartosz!' screams Martha in disgust.",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "Before anyone can say another word, a younger boy, at least 4 years younger than the others present breaks through into the gathering. 'Hey Jonas! How was France?'",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "Before you can answer Magnus clips the young boy on the back of the head. 'Ignore my brother Jonas' 'Oww!' shrieks Mikkel, the younger boy. 'What did you do that for?'",
+                        "sceneImage": "lake_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "'Because I'm your older brother dipshit' replies Magnus. Mikkel turns back to you. 'Hey Jonas, want to see a magic trick?'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Sure",
+                                "nextScene": 9,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "No thanks",
+                                "nextScene": "TODO",
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 9,
+                        "text": "'Ohh God, I'm sorry Jonas, Mikkel has been studying magic tricks all summer, he thinks he's the next Houdini!' Ignoring his brother, Mikkel produces three cups from his pockets.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 10,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 10,
+                        "text": "He places the three cups facedown on a table in the yard. He then produces a small ball and places it under one of the cups.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 11,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 11,
+                        "text": "He then switches the position of the cups multiple times but at a seemingly deliberate slow pace and it is easy to keep track of where the ball is.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 12,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 12,
+                        "text": "Mikkel stops moving the cups. You know that the cup is under the middle cup.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Point to the middle cup",
+                                "nextScene": 13,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 13,
+                        "text": "Mikkel lifts the cup and shows it to you. The cup is empty. He then lifts the rightmost cup to reveal the ball.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "How did you do that?",
+                                "nextScene": 14,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 14,
+                        "text": "'It's not a question of how' replies Mikkel 'But <i>when</i>.' As he finishes, you feel a strange sense of déjá vu.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 15,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
         
     }
