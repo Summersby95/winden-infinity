@@ -275,7 +275,7 @@
                 ]
             },
             {
-                "sequenceId": 0,
+                "sequenceId": 1,
                 "sequenceName": "Ulrich Encounter",
                 "locationId": 1,
                 "scenes": [
@@ -310,33 +310,23 @@
                     },
                     {
                         "sceneId": 2,
-                        "text": "You go downstairs to get some breakfast. You call for your mother.",
-                        "sceneImage": "stairs_white.png",
+                        "text": "'You don't look sick' remarks Ulrich. He stares at you intently for half a second before breaking into a smile. 'I'm only joking Jonas, I won't arrest you today!'",
+                        "sceneImage": "suspicious_white.png",
                         "options": [
                             {
-                                "optionText": "Mama",
-                                "nextScene": 3,
-                                "dependantVariables": []
-                            }, 
-                            {
-                                "optionText": "Hannah",
-                                "nextScene": 3,
+                                "optionText": "That's good to hear",
+                                "nextScene": 4,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 3,
-                        "text": "You hear a flurry of footsteps, more than one set of feet, which surprises you given your father's recent suicide and that no one else should be in the house. You open the fridge and find a bottle of milk, it's one day past expiry",
-                        "sceneImage": "milk_white.png",
+                        "text": "'I understand' remarks Ulrich. 'You've been through a lot these last few months'",
+                        "sceneImage": "character_white.png",
                         "options": [
                             {
-                                "optionText": "Chance it",
-                                "nextScene": 4,
-                                "dependantVariables": []
-                            },
-                            {
-                                "optionText": "Get toast instead",
+                                "optionText": "Okay",
                                 "nextScene": 4,
                                 "dependantVariables": []
                             }
@@ -344,38 +334,33 @@
                     },
                     {
                         "sceneId": 4,
-                        "text": "Your mother walks down the stairs, she looks surprised that you are up. 'Why are you up Jonas?'",
-                        "sceneImage": "character_full_white.png",
+                        "text": "Ulrich approaches you and as he does you detect a familiar smell. The aftershave is the same that you smelt on your mother at breakfast",
+                        "sceneImage": "perfume_white.png",
                         "options": [
                             {
-                                "optionText": "It's the first day of school.",
+                                "optionText": "Were you at our house earlier?",
                                 "nextScene": 5,
                                 "dependantVariables": []
                             },
                             {
-                                "optionText": "I'm going to hang out with Marthat and Bartosz",
-                                "nextScene": 5,
+                                "optionText": "Where are you going?",
+                                "nextScene": 9,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 5,
-                        "text": "'You know you don't have to go to school if you don't want to, you still need time to heal' As she walks by you detect the faint smell of aftershave on her neck, certainly not one that you recognise as belonging to your father.",
-                        "sceneImage": "perfume_white.png",
+                        "text": "Ulrich's eyes suddenly narrow as he glares at you, studying. 'No' he says 'Why would you think that?'",
+                        "sceneImage": "angry-eyes.png",
                         "options": [
                             {
-                                "optionText": "I need to get out of the house.",
+                                "optionText": "The aftershave, I smelt it on my mother this morning and I heard two sets of footsteps when I called her.",
                                 "nextScene": 6,
                                 "dependantVariables": []
                             },
                             {
-                                "optionText": "Why is the Milk gone off?",
-                                "nextScene": 7,
-                                "dependantVariables": []
-                            },
-                            {
-                                "optionText": "Was there someone upstairs with you?",
+                                "optionText": "Nevermind",
                                 "nextScene": 8,
                                 "dependantVariables": []
                             }
@@ -383,88 +368,110 @@
                     },
                     {
                         "sceneId": 6,
-                        "text": "'Okay, look after yourself' Your mother kisses you on the forehead.",
-                        "sceneImage": "hearts_white.png",
+                        "text": "Ulrich leans in close. 'I don't know what games you think you are playing but if you so much as speak a word of this to anyone in my family I'll lock you up in jail for a week.'",
+                        "sceneImage": "shadow-follower.png",
                         "options": [
                             {
-                                "optionText": "Okay",
-                                "nextScene": 10,
+                                "optionText": "I'm going to tell Katharina",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Nevermind",
+                                "nextScene": 8,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 7,
-                        "text": "'I didn't get a chance to go to the shop yesterday' Your mother glares at you.",
-                        "sceneImage": "character_full_white.png",
+                        "text": "Ulrich shoves you against the bonnet of his car. 'Jonas you are under arrest!'",
+                        "sceneImage": "arrest.png",
                         "options": [
                             {
                                 "optionText": "Okay",
-                                "nextScene": 10,
+                                "nextScene": "Jail End",
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 8,
-                        "text": "'Wha... What are you talking about?' Your mother spins and glares at you, shaking the coffee container she's holding",
-                        "sceneImage": "suspicious_white.png",
+                        "text": "Ulrich eyes you suspiciously before breaking into a smile again. 'Nevermind, Jonas. Why don't you run along to school and talk with Martha and Magnus'",
+                        "sceneImage": "police_officer_head_white.png",
                         "options": [
                             {
-                                "optionText": "I heard footsteps upstairs",
+                                "optionText": "Okay",
                                 "nextScene": 9,
-                                "dependantVariables": []
-                            },
-                            {
-                                "optionText": "Nevermind",
-                                "nextScene": 10,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 9,
-                        "text": "'You must be imagining things' Your mother says nervously. 'You still see your dead father walking around, forget it'",
-                        "sceneImage": "character_white.png",
+                        "text": "'I have to go into work' says Ulrich, somberly. 'We still have no leads on where Erik is.'",
+                        "sceneImage": "worried-eyes.png",
                         "options": [
                             {
-                                "optionText": "Okay",
+                                "optionText": "Where do you think he's gone?",
                                 "nextScene": 10,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Well I'm off",
+                                "nextScene": 12,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 10,
-                        "text": "You finish your breakfast. Eager to get going, you rush back upstairs and grab your school things and make for the front door.",
-                        "sceneImage": "stairs_white.png",
+                        "text": "'We don't know, we've searched the forest where he was last seen but have found nothing, as far as we can tell he's just disappeared off the face of the Earth' Ulrich's voice gains a tone of sadness. 'It's like my brother, Mads' case all over again'",
+                        "sceneImage": "magnifying-glass.png",
                         "options": [
                             {
-                                "optionText": "Okay",
+                                "optionText": "He disappeared 33 years ago didn't he?",
                                 "nextScene": 11,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Well I'm off",
+                                "nextScene": 12,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 11,
-                        "text": "You hear your mother call out to you. 'Don't forget your yellow jacket, it's pouring outside!'",
-                        "sceneImage": "jacket_white.png",
+                        "text": "'Yes, the circumstances seem to match up nearly exactly. It's very strange' Ulrich ponders this for a moment. 'Anyway, I must go.'",
+                        "sceneImage": "idea.png",
                         "options": [
                             {
                                 "optionText": "Okay",
-                                "nextScene": -1,
+                                "nextScene": 12,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 12,
-                        "text": "There is no one at home now",
-                        "sceneImage": "kahnwald_house_white.png",
+                        "text": "'See you around Jonas' Ulrich says as he hops in his car and departs.",
+                        "sceneImage": "city-car.png",
                         "options": [
                             {
-                                "optionText": "Leave",
+                                "optionText": "See you around",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 13,
+                        "text": "The door is locked. There is no one home",
+                        "sceneImage": "nielsen_house_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
                                 "nextScene": -1,
                                 "dependantVariables": []
                             }
