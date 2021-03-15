@@ -73,7 +73,12 @@ function buildOptions(options) {
 
     $.each(options, (optionIndex, option) => { 
         let buttonTemplate = `
-            <div class="control-div col">
+            <div class="control-div col d-none d-sm-flex">
+                <button class="btn control-button" value="${option.optionId}">
+                    ${option.optionText}
+                </button>
+            </div>
+            <div class="control-div col-12 d-flex d-sm-none">
                 <button class="btn control-button" value="${option.optionId}">
                     ${option.optionText}
                 </button>
