@@ -94,38 +94,7 @@ function buildOptions(options) {
 }
 
 function buildScene(scene) {
-    let canvas = $("#game-canvas")[0];
-    let ctx = canvas.getContext("2d");
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    let x = canvas.width*0.05;
-    let y = canvas.height*0.05;
-    let cardWidth = canvas.width*0.9;
-    let cardHeight = canvas.height*0.9;
-
-    // ctx.fillStyle = "white";
-    // ctx.arc(x-10, y-10, 10, Math.PI*1.5, Math.PI, true);
-    // ctx.arc(x-10, y+cardHeight-10, 10, Math.PI, Math.PI/2, true);
-    // ctx.arc(x+cardWidth-10, y+cardHeight-10, 10, Math.PI/2, 0, true);
-    // ctx.arc(x+cardWidth-10, y-10, 10, 0, 1.5*Math.PI, true);
-    // ctx.fill();
-
-    ctx.fillStyle = "black";
-    ctx.arc(x, y, 10, Math.PI*1.5, Math.PI, true);
-    ctx.arc(x, y+cardHeight, 10, Math.PI, Math.PI/2, true);
-    ctx.arc(x+cardWidth, y+cardHeight, 10, Math.PI/2, 0, true);
-    ctx.arc(x+cardWidth, y, 10, 0, 1.5*Math.PI, true);
-    ctx.fill();
-
-    
-
-    sceneImage = new Image();
-    sceneImage.src = `assets/images/${scene.image}`;
-    sceneImage.onload = () => ctx.drawImage(sceneImage, (canvas.width*0.25), (canvas.height*0.05), (canvas.width*0.5), (canvas.height*0.9));
-    ctx.font = "30px Montserrat";
-    ctx.fillStyle = "white";
-    ctx.textAlign = "center";
-
+    $("#game-canvas").attr("src", `assets/images/${scene.image}`);
     $("#scene-text").html(scene.text);
 }
 
