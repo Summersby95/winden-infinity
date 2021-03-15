@@ -1659,6 +1659,355 @@
                                 "dependantVariables": []
                             }
                         ]
+                    },
+                    {
+                        "sceneId": 15,
+                        "text": "Before you can respond Magnus jumps in. 'Enough of that Mikkel' Magnus clips Mikkel on the back of the head again.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 16,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 16,
+                        "text": "As he does, you hear a crackle as the school speakers in the yard burst to life. 'Attention all students, please proceed to the gymnasium for the start of year announcement'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 17,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 17,
+                        "text": "Martha speaks up. 'Guess we better head in' Magnus, Martha, Bartosz and Mikkel begin heading in to the school building",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Follow the group",
+                                "nextScene": 18,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 18,
+                        "text": "You make your way in to the assembly hall and sit down next to Magnus. As you do a middle-aged woman makes her way on to the stage at the front of the assembly hall. You recognise her as Katharina Nielsen.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 19,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 19,
+                        "text": "Katharina speaks up. 'Hello everyone and welcome back, I hope you all enjoyed your summer break.'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 20,
+                        "text": "Katharina's voice turns somber. 'Before we begin this new school year, I feel it's important to talk about the elephant in the room. As I am sure most of you know already, Erik Obendorff, a student here disappeared a few days ago'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 21,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 21,
+                        "text": "'Erik was last scene entering the forest near the school here on November 1st. No one has seen him since'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 22,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 22,
+                        "text": "'Erik was a valued student here and a friend to many and we miss him dearly' A tear comes to Katharina's eyes. 'If anyone has any information that could help the investigation please come forward'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 23,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 23,
+                        "text": "'Likewise please look out for each other, do not go wandering around the forest or caves late at night'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 24,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 24,
+                        "text": "Katharina's demeanor suddenly changes as she forces a smile. 'And lastly, anyone interested in auditioning for the school play please fill in the form in the hallway!'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 25,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 25,
+                        "text": "Katharina departs the stage and students begin departing. 'C'mon, let's go' Bartosz nudges you to your feet.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 26,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 26,
+                        "text": "You leave the hall and begin enter the corridor to find Martha, Bartosz and Magnus standing to one side.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 27,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 27,
+                        "text": "Bartosz speaks up. 'What a load of crap! Erik definitely just ran off, wanted to leave this stupid town. Who can blame him?'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "I don't think that's what happened",
+                                "nextScene": 28,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "He probably killed himself",
+                                "nextScene": 31,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Maybe",
+                                "nextScene": 30,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 28,
+                        "text": "'What do you know? You've been away with the fairies all summer' retorts Bartosz",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "More than you anyway, dipshit",
+                                "nextScene": 29,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I just don't think that's what happened",
+                                "nextScene": 30,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 29,
+                        "text": "Bartosz stares at you for a few seconds before breaking into laughter. 'Hahaha that's the Jonas I remember!'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 32,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 30,
+                        "text": "'Well whatever man, the point is he's gone' Bartosz says off handedly.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 32,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 31,
+                        "text": "'Jonas! What the fuck?' Martha looks shocked at your response. 'Yeah, not cool man.' Magnus chimes in.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 32,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 32,
+                        "text": "'Anyway!' remarks Bartosz. 'I have a lead on where Erik's drug stash was.'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 34,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Erik was dealing drugs?",
+                                "nextScene": 33,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 33,
+                        "text": "'Yeah, apparently he was dealing to a bunch of kids in school' Magnus speaks up.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 34,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 34,
+                        "text": "'So the stash is over by the caves in the woods.' says Bartosz. 'I think we should go out there tonight and take the stash. Who's in?'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "I don't think that's a good idea",
+                                "nextScene": 35,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 36,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 35,
+                        "text": "'I agree with Jonas. I think it's a bad idea' remarks Martha shyly.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 36,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 36,
+                        "text": "'Well I'm heading anyway, I think we should meet up near the forest later and go together.'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 37,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 37,
+                        "text": "'Yeah, sounds good. I'm not doing anything.' says Magnus. 'What about you Jonas?' asks Bartosz",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Yeah, okay",
+                                "nextScene": 38,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 38,
+                        "text": "'I guess that means I'm in too' says Martha. 'Great!' yells Bartosz. 'We'll meet out there at about 8.'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 39,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 39,
+                        "text": "'See you all later then' The group breaks up and go their seperate ways.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 40,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 40,
+                        "text": "The school day passes by without anything eventful.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 41,
+                        "text": "The school is closed.",
+                        "sceneImage": "school_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
                     }
                 ]
             }
