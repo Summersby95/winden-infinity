@@ -12,8 +12,6 @@ let completedSequences = [];
 
 $(document).ready(function() {
     getGameInfo(startGame);
-    $("#game-canvas").attr("width", $("#game-canvas").width());
-    $("#game-canvas").attr("height", $("#game-canvas").height());
 });
 
 
