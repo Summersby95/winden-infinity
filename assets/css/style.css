@@ -41,7 +41,10 @@ body {
 
 #game-canvas {
     height: 40vh;
-    width: 70%;
+    margin: 10px;
+    background-color: black;
+    max-width: 90%;
+    border-radius: 10px;
 }
 
 .control-button {
