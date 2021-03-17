@@ -2766,6 +2766,16 @@
                 ]
             }
         ],
+        "endings": [
+            {
+                "endingId": 0,
+                "endImage": "",
+                "endText": "As the search for Mikkel wages on, you are troubled by the events you witnessed and sense there is a deeper mystery to be solved than just two missing boys. How will you solve it? That is a story for another time...."
+            },
+            {
+                "endingId": 1,
+                "endImage": "",
+                "endText": "You spend the next few days locked behind bars. While inside more children disappear from the town. You sense there is a grand mystery to be solved but behind bars you are helpless to do anything...."
             }
         ]
         
