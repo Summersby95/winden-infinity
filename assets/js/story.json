@@ -2010,6 +2010,188 @@
                         ]
                     }
                 ]
+            },
+            {
+                "sequenceId": 9,
+                "sequenceName": "Bunker",
+                "locationId": 4,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "You approach the bunker. It's entrance is overgrown with vines and branches. However, you notice that a select few of the branches appear to have been cut away recently.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "Behind the vines sits a large steel door. It looks quite heavy and it appears to be locked. A circular handle sits in the center of the door.",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "Twist handle left",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Twist handle right",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "The door is still locked",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "Twist handle left",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Twist handle right",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Leave",
+                                "nextScene": 10,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "As you twist the handle you hear the lock mechanism give and the door open. Inside the bunker you see steps descending into the ground as far as you can see.",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "Continue into bunker.",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Leave",
+                                "nextScene": 10,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "You arrive at the bottom of the steps but the room is poorly lit and you cannot see much.",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "Turn on phone light.",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "With light on, you see you are in a small empty room. There are no other doors leaving the room except for the one you came through.",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Inspect wall of room.",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Inspect floor of room.",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Leave",
+                                "nextScene": 10,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "You inspect the wall of the room. It appears dull and uninteresting at first but as you walk around the room you notice some markings scrawled across one of the walls in chalk.",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "Inspect",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "Inspecting the markings you notice the markings form three circles all intersecting each other. The each circle has a number in it. <i>1953, 1986, 2019</i>",
+                        "sceneImage": "lake_white.png",
+                        "options": [
+                            {
+                                "optionText": "Stop inspecting wall",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "The floor of the room appears unremarkable and covered in dust. However, you do notice tracks in the dust where something appears to have been dragged along the floor recently.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Follow tracks",
+                                "nextScene": 9,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 9,
+                        "text": "Following the tracks, you arrive at the center of the room. The tracks stop and in the center on the ground you find a necklace.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 10,
+                        "text": "You leave the bunker.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 11,
+                        "text": "The bunker is locked.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
+            },
             }
         ]
         
