@@ -2192,6 +2192,196 @@
                     }
                 ]
             },
+            {
+                "sequenceId": 10,
+                "sequenceName": "Old Jonas Encounter",
+                "locationId": 12,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "You approach the bunker and look in the window. The shop appears to have been shut for sometime. All you can make out inside are boxes and furniture covered in dust.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "As you peer through the window, you hear a voice call out beside you. 'Time is a curious thing'",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "Turn to face stranger",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "You turn and see a hooded middle aged man, he appears ragged and dirty. 'You look a lot like him'",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "Like who?",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Who are you?",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Run away",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "'That's not important right now' The stranger gazes into the derelict shop.",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Run away",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "'Your father. I knew him' The stranger looks you up and down. 'It was a long time ago but I remember him well.'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "How did you know my father?",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "'He saved my life. But I only realized that much later.'",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Run away.",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "'Life is a labyrinth. Some people wander around their whole lives looking for a way out, but there's only one path and it leads you ever deeper.'",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Run away.",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "'You don't understand it until you've reached the center'",
+                        "sceneImage": "lake_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Run away.",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "'Death is incomprehensible but you can make peace with it.'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 9,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Run away.",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 9,
+                        "text": "'Till then you should ask yourself each day if you've made the right decisions.'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 10,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Run away.",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 10,
+                        "text": "The stranger walks away and you feel a sudden sense of déjá vu",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Leave",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 11,
+                        "text": "The clock shop is closed.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
         
