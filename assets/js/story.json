@@ -390,7 +390,7 @@
                         "options": [
                             {
                                 "optionText": "Okay",
-                                "nextScene": "Jail End",
+                                "nextScene": "end1",
                                 "dependantVariables": []
                             }
                         ]
