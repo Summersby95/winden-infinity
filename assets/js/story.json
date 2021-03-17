@@ -532,7 +532,7 @@
                         "options": [
                             {
                                 "optionText": "Yes, I'd like to confess. I killed Erik.",
-                                "nextScene": "Jail End",
+                                "nextScene": "end1",
                                 "dependantVariables": []
                             },
                             {
@@ -1309,7 +1309,7 @@
                             },
                             {
                                 "optionText": "No",
-                                "nextScene": "Jail End",
+                                "nextScene": "end1",
                                 "dependantVariables": []
                             }
                         ]
