@@ -2382,6 +2382,390 @@
                         ]
                     }
                 ]
+            },
+            {
+                "sequenceId": 11,
+                "sequenceName": "Cave Sequence",
+                "locationId": 6,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "You arrive at the path leading to the cave shortly after 8pm. You see Martha waiting as you approach.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "sceneId": 1,
+                        "text": "Martha spies you approaching. 'Hey! Good to see you'",
+                        "sceneImage": "cowled.png",
+                        "options": [
+                            {
+                                "optionText": "Good to see you too.",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 2,
+                        "text": "'It's so quiet out here tonight isn't it?' Martha asks, looking at you intently. As she does, you get a weird sense of déjá vu and you stumble back half a step.",
+                        "sceneImage": "discussion.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 3,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 3,
+                        "text": "'Are you okay?' Martha asks.",
+                        "sceneImage": "conversation.png",
+                        "options": [
+                            {
+                                "optionText": "I just had the weirdest sense of déjá vu.",
+                                "nextScene": 4,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "It's nothing.",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 4,
+                        "text": "'A glitch in the matrix.' Martha laughs. 'Some people say that if life is a simulation then déjá vu is a glitch in the matrix, that or a message from the other side!'",
+                        "sceneImage": "worried-eyes.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 5,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 5,
+                        "text": "Martha moves closer to you. 'I'm glad you're back, I missed you so much over the summer.'",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "I missed you too.",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I didn't miss you at all.",
+                                "nextScene": 6,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 6,
+                        "text": "Before Martha can respond you hear two more sets of footsteps approaching. You both turn to see Magnus and Mikkel approaching. 'Hey, what the hell?' asks Martha to the approaching pair.",
+                        "sceneImage": "feather-necklace.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 7,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 7,
+                        "text": "'Parents' meeting, I'm stuck with him' responds Magnus. 'Take him back now' Martha demands. 'You take him back' Magnus retorts. 'Relax guys, I'm not a baby anymore' pipes up Mikkel 'Hey Jonas, ultimate fistbump?'",
+                        "sceneImage": "lake_white.png",
+                        "options": [
+                            {
+                                "optionText": "Fistbump",
+                                "nextScene": 8,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Don't fistbump",
+                                "nextScene": 9,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 8,
+                        "text": "'Awesome!' Mikkel smiles.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 9,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 9,
+                        "text": "You hear another set of footsteps approaching. You all turn around to see Bartosz approaching. 'What's the idiot doing here?' asks Bartosz, looking at Mikkel.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 10,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 10,
+                        "text": "'Forget it, let's go.' Magnus beckons towards the cave and you all begin walking. Bartosz wraps his arm around Martha as you walk.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 11,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 11,
+                        "text": "After 20 minutes of walking you arrive at the cave. There is a collection of abandoned and rotting furniture near the cave entrance. 'Over there.' says Bartosz 'In the armchair'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 12,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 12,
+                        "text": "Bartosz runs over and inspects the armchair. He checks in all the hidden joints. 'Fuck man, it was here' he finds nothing.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 13,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 13,
+                        "text": "'Looking for this?' a female voice calls out from the cave entrance. The group turns to see Francizka Doppler standing in the cave entrance holding a package aloft in one hand.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 14,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 14,
+                        "text": "'Hey that's mine!' roars Bartosz. 'I believe that possession is nine-tenths of the law, so it's mine for now.' retorts Francizka.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 15,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 15,
+                        "text": "'But I'll sell it to you, what's here is easily worth 500. I'll sell it to you for 200. Daddy's got plenty of money.'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 16,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 16,
+                        "text": "'Stop the bullshit' roars Bartosz as he grabs the parcel from Francizka and shoves her to the ground. 'Jackpot!' yells Bartosz as he turns away from Francizka and looks at the group.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 17,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 17,
+                        "text": "Suddenly, you hear a loud drum-like sound come from the cave entrance. The group turns around and looks into the cave. 'What's that?' asks Magnus.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 18,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 18,
+                        "text": "From the trees you hear small branches breaking under footsteps. 'Someone's there' yells Martha.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 19,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 19,
+                        "text": "The drum-like sound from the cave repeats and everyone's flashlight begins flickering. An ominous, electrical sound begins ringing in your ears.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 20,
+                        "text": "'Move, RUN!' screams Magnus.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Turn and run",
+                                "nextScene": 21,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 21,
+                        "text": "You turn and run however with no flashlights you cannot see very well and quickly become seperated from the group.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue running",
+                                "nextScene": 22,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 22,
+                        "text": "You stumble and hit the ground. As you stand up you hear a voice whisper in the dark. 'Jonas...'",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 23,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 23,
+                        "text": "Your flashlight bursts back to life and you see, standing ten feet away from you, an tall man you don't recognise, covered in blood.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Run away.",
+                                "nextScene": 24,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 24,
+                        "text": "You continue running and eventually find yourself back at the beginning of the path to the cave. Bartosz, Martha and Magnus are waiting there.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Where is Mikkel?",
+                                "nextScene": 25,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 25,
+                        "text": "You continue running and eventually find yourself back at the beginning of the path to the cave. Bartosz, Martha and Magnus are waiting there.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Where is Mikkel?",
+                                "nextScene": 26,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 26,
+                        "text": "You continue running and eventually find yourself back at the beginning of the path to the cave. Bartosz, Martha and Magnus are waiting there.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Where is Mikkel?",
+                                "nextScene": 27,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 27,
+                        "text": "'He's not with you?' yells Magnus.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "No I thought he was with you!",
+                                "nextScene": 28,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 28,
+                        "text": "Magnus begins running back into the woods yelling. 'Mikkel!' as he does.",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": 29,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 28,
+                        "text": "An hour passes with no sign of Mikkel. Martha calls the cops and they begin searching the woods. They never find him",
+                        "sceneImage": "retirement_home_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": "end0",
+                                "dependantVariables": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
             }
         ]
         
