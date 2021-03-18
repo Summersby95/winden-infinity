@@ -242,8 +242,25 @@ function arrayCheck(a, b) {
         a.every((val, index) => val === b[index]);
 }
 
+// form validation function
 function validateForm() {
-    sendEmail();
+    let responseText;
+    if ($("#messageText").val() == "") {
+        responseText = "Message field cannot be empty!";
+    } else if ($("#fromName").val() == "") {
+        responseText = "Name field cannot be blank!";
+    } else if ($("#emailAddress").val() == "") {
+        responseText = "Email field cannot be blank!";
+    } else if (!validateEmail($("#emailAddress").val())) {
+        responseText = "Email address is not valid!";
+    }
+
+    if (responseText === undefined) {
+        sendEmail();
+    } else {
+        $(".progress-text").html(responseText);
+        $(".progress-text").css("color", "red");
+    }
 }
 
 function sendEmail() {
