@@ -2738,6 +2738,18 @@
                                 "dependantVariables": []
                             }
                         ]
+                    },
+                    {
+                        "sceneId": 28,
+                        "text": "The cave is a scarry place to go alone. Come back later with friends.",
+                        "sceneImage": "cave_white.png",
+                        "options": [
+                            {
+                                "optionText": "Continue",
+                                "nextScene": -1,
+                                "dependantVariables": []
+                            }
+                        ]
                     }
                 ]
             }
