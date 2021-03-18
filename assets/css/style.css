@@ -124,8 +124,9 @@ section {
     color: var(--off-white);
 }
 
-nav {
-    background-color: var(--black-header);
+@media only screen and (min-width: 576px) {
+    .footer-container {
+        position: absolute;
 }
 }
 
