@@ -41,6 +41,9 @@ function startGame() {
         options.push({
             "optionId": 0,
             "optionText": "End Game"
+        }, {
+            "optionId": -1,
+            "optionText": "Restart Game"
         });
 
         scene = {
