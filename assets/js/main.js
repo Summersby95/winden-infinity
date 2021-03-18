@@ -152,7 +152,11 @@ function processControl(controlVal) {
             currentLocationId = parseInt(controlVal);
         }
     } else {
-        if (controlVal == -1) {
+        if (currentSequenceId == 9 && currentSceneId == 2) {
+            bunkerHandleSeq.push(controlVal);
+            if (arrayCheck(bunkerSuccessSeq, bunkerHandleSeq)) {
+                currentSceneId = 3;
+            }
             completedSequences.push(currentSequenceId);
             currentSceneId = undefined;
             currentSequenceId = undefined;
