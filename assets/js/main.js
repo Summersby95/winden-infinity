@@ -263,6 +263,14 @@ function validateForm() {
     }
 }
 
+// function to validate email address
+function validateEmail(email) {
+	if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(String(email).toLowerCase())) {
+      	return true;
+    }
+    return (false);
+}
+
 function sendEmail() {
     emailjs.send("service_hs5tljx","template_o9nml2i", {
         from_name: $("#emailAddress").val(),
