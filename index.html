@@ -71,9 +71,38 @@
                 </div>
             </div>
         </div>
+        <!-- feedback modal -->
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feebackModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 id="feedbackModalLabel" class="modal-title">Submit Feedback:</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <form>
+                                <div class="col-md-12">
+                                    <label for="emailAddress">From E-mail:</label>
+                                    <input type="email" class="form-control feedback-input" id="emailAddress" placeholder="E-mail Address">
+                                    <small class="form-text">Enter your email address.</small>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="name">Name:</label>
+                                    <input type="text" class="form-control feedback-input" id="fromName" placeholder="Name">
+                                    <small class="form-text">Enter your name.</small>
+                                </div>
+                                <div class="col-md-12">
+                                    <label for="message">Message:</label>
+                                    <textarea type="text" class="form-control feedback-input" placeholder="Message text...." id="messageText"></textarea>
+                                    <small class="form-text">Enter your message text here.</small>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                     <div class="modal-footer">
+                        <button class="btn btn-success" type="button" id="submitFeedback">Submit Feedback</button>
                         <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
-                        <button class="btn btn-primary" type="button">Save Changes</button>
                     </div>
                 </div>
             </div>
