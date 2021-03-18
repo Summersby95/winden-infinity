@@ -146,6 +146,14 @@ section {
     color: var(--off-white);
 }
 
+.progress-text {
+    text-align: center;
+}
+
+.form-control:disabled {
+    background-color: var(--black-header);
+}
+
 /* about link class rules */
 .about-link {
     color: var(--off-white);
