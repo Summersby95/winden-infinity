@@ -104,10 +104,19 @@ function buildOptions(options) {
         controlsTemplate += buttonTemplate;
     });
 
+    
+
     $(".controls-container").html(controlsTemplate);
+    
+    if (endingId === undefined) {
     $(".control-button").click(function() {
         processControl($(this).val());
     });
+    } else {
+        $(".control-button").click(function() {
+            aboutModal.toggle();
+        });
+}
 }
 
 function buildScene(scene) {
