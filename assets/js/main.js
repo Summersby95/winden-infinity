@@ -157,7 +157,10 @@ function processControl(controlVal) {
             if (arrayCheck(bunkerSuccessSeq, bunkerHandleSeq)) {
                 currentSceneId = 3;
             }
+        } else if (controlVal == -1) {
+            if (currentSequenceId != 11) {
             completedSequences.push(currentSequenceId);
+            }
             currentSceneId = undefined;
             currentSequenceId = undefined;
         } else {
