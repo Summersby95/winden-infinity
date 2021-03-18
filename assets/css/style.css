@@ -4,7 +4,8 @@
     --black-header: #1a1c20;
     --black-body: #252525;
     --black-game: #414141;
-    --off-white: #FDF0D5;
+    --off-white: #f9fcfb;
+    --black: #000000;
 }
 
 body {
