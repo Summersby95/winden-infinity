@@ -175,3 +175,20 @@ function arrayCheck(a, b) {
     return a.length === b.length && 
         a.every((val, index) => val === b[index]);
 }
+
+function validateForm() {
+    sendEmail();
+}
+
+function sendEmail() {
+    emailjs.send("service_hs5tljx","template_o9nml2i", {
+        from_name: $("#emailAddress").val(),
+        message_text: $("#fromName").val(),
+        from_email: $("#messageText").html()
+    })
+        .then(function() {
+            console.log('Success!');
+        }, function(error) {
+            console.log('Failed...', error);
+        });
+}
