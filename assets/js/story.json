@@ -612,7 +612,7 @@
                     {
                         "sceneId": 0,
                         "text": "You enter the forest, the terrain is mostly easy and forgiving. The forest appears empty, you hear only the odd chirps of birds.",
-                        "sceneImage": "character_full_white.png",
+                        "sceneImage": "forest_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -624,7 +624,7 @@
                     {
                         "sceneId": 1,
                         "text": "You continue strolling through the forest for a few minutes when you hear a branch break somewhere in the distance.",
-                        "sceneImage": "police_officer_head_white.png",
+                        "sceneImage": "tree-branch.png",
                         "options": [
                             {
                                 "optionText": "Investigate",
@@ -641,7 +641,7 @@
                     {
                         "sceneId": 2,
                         "text": "As you approach the noise you began to make out a familiar figure, Martha Nielsen",
-                        "sceneImage": "suspicious_white.png",
+                        "sceneImage": "character_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -653,7 +653,7 @@
                     {
                         "sceneId": 3,
                         "text": "Martha hears you as you approach and looks up from the book in her hand to catch your gaze.",
-                        "sceneImage": "character_white.png",
+                        "sceneImage": "look-at.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -665,7 +665,7 @@
                     {
                         "sceneId": 4,
                         "text": "'Jonas!' She jumps up from the stump she's sitting in and runs to you open armed. Before you know it she has you in a tight embrace.",
-                        "sceneImage": "perfume_white.png",
+                        "sceneImage": "run.png",
                         "options": [
                             {
                                 "optionText": "Embrace back",
@@ -682,7 +682,7 @@
                     {
                         "sceneId": 5,
                         "text": "'I missed you so much all summer! It just wasn't the same without you around'",
-                        "sceneImage": "angry-eyes.png",
+                        "sceneImage": "lovers.png",
                         "options": [
                             {
                                 "optionText": "I missed you too",
@@ -699,7 +699,7 @@
                     {
                         "sceneId": 6,
                         "text": "Martha stares at you quizzingly. 'Where were you? Bartosz said you were in France but I know that was bullshit.'",
-                        "sceneImage": "shadow-follower.png",
+                        "sceneImage": "talk.png",
                         "options": [
                             {
                                 "optionText": "I was in Frace visiting relatives",
@@ -716,7 +716,7 @@
                     {
                         "sceneId": 7,
                         "text": "Martha frowns. 'You're not convincing me. Why can't you just tell me where you really were? I know it was hard after your dad died but I could've helped and been there for you but you just shut me out!'",
-                        "sceneImage": "arrest.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "I really was in France",
@@ -733,7 +733,7 @@
                     {
                         "sceneId": 8,
                         "text": "'Fine, don't tell me, hide secrets. I thought we were closer than that.' A tear comes to Martha's eye as she storms off.",
-                        "sceneImage": "police_officer_head_white.png",
+                        "sceneImage": "worried-eyes.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -757,7 +757,7 @@
                     {
                         "sceneId": 10,
                         "text": "'We can talk about it if you want.'",
-                        "sceneImage": "magnifying-glass.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "I want to talk about it",
@@ -774,7 +774,7 @@
                     {
                         "sceneId": 11,
                         "text": "'What was it like?'",
-                        "sceneImage": "idea.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "It was hard, I was so angry at everything and everyone",
@@ -791,7 +791,7 @@
                     {
                         "sceneId": 12,
                         "text": "'That sounds horrible. I know how close you were to your father'",
-                        "sceneImage": "city-car.png",
+                        "sceneImage": "tear-tracks.png",
                         "options": [
                             {
                                 "optionText": "I miss him every day",
@@ -808,7 +808,7 @@
                     {
                         "sceneId": 13,
                         "text": "'I'm so sorry Jonas'",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "lovers.png",
                         "options": [
                             {
                                 "optionText": "It's okay, I'm glad you're here",
@@ -820,7 +820,7 @@
                     {
                         "sceneId": 14,
                         "text": "'Ohh okay' Martha looks at you oddly.",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "sleepy.png",
                         "options": [
                             {
                                 "optionText": "Say nothing",
@@ -832,7 +832,7 @@
                     {
                         "sceneId": 15,
                         "text": "'Can I ask you something Jonas?'",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Of course",
@@ -849,7 +849,7 @@
                     {
                         "sceneId": 16,
                         "text": "'Was what happened between us at the lake at the start of the summer real?' Martha looks away, unsure.",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "face-to-face.png",
                         "options": [
                             {
                                 "optionText": "Yes, absolutely",
@@ -866,7 +866,7 @@
                     {
                         "sceneId": 17,
                         "text": "'I think about it a lot.' Martha at you. 'But you were gone all summer, Bartosz was the only one there for me. We're together now. I'm sorry if that makes you uncomfortable.'",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "coversation.png",
                         "options": [
                             {
                                 "optionText": "I understand, you don't need to explain yourself",
@@ -883,7 +883,7 @@
                     {
                         "sceneId": 18,
                         "text": "'Thank you' Martha sighs. 'I better go, people will start to wonder where I am'",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "eyelashes.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -895,7 +895,7 @@
                     {
                         "sceneId": 19,
                         "text": "'Ohh okay' Martha looks disheartened.",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "worried-eyes.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -907,7 +907,7 @@
                     {
                         "sceneId": 20,
                         "text": "'See you around Jonas' Martha walks away.",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "walk.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -919,7 +919,7 @@
                     {
                         "sceneId": 21,
                         "text": "You wander the forest for a while but find nothing of note.",
-                        "sceneImage": "nielsen_house_white.png",
+                        "sceneImage": "forest_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -938,7 +938,7 @@
                     {
                         "sceneId": 0,
                         "text": "As you approach the gate entrance to the plant you see a man pull up to the gate in a new Mercedes car. The gate opens for him immediately. As he passes you, he stops and rolls down his window. Alexander Tiedeman leans his head out of the car. 'Hello Jonas, here looking for a job?' He laughs.",
-                        "sceneImage": "character_full_white.png",
+                        "sceneImage": "city-car.png",
                         "options": [
                             {
                                 "optionText": "Just having a look around",
@@ -955,7 +955,7 @@
                     {
                         "sceneId": 1,
                         "text": "'Ohh I'm afraid I can't let you in to walk around Jonas. Nuclear power plants are dangerous places. I'll try and arrange a visit for you sometime in the future.'",
-                        "sceneImage": "cowled.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -967,7 +967,7 @@
                     {
                         "sceneId": 2,
                         "text": "'That's great to hear!' remarks Alexander, smiling. 'It's great to see another generation interested in Nuclear energy.'",
-                        "sceneImage": "discussion.png",
+                        "sceneImage": "character-white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -979,7 +979,7 @@
                     {
                         "sceneId": 3,
                         "text": "'Unfortunately, as you've probably heard. The plant is being decommissioned now in a few days.' Alexander sighs. 'The world can no longer stomach the thought of Nuclear power. A shame really, it's one of the few viable options for a clean future.'",
-                        "sceneImage": "conversation.png",
+                        "sceneImage": "worried-eyes.png",
                         "options": [
                             {
                                 "optionText": "What will happen to the plant?",
@@ -996,7 +996,7 @@
                     {
                         "sceneId": 4,
                         "text": "'It will be decommissioned, and all the staff that it supports will have to be let go. It's very unfortunate.'",
-                        "sceneImage": "worried-eyes.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1008,7 +1008,7 @@
                     {
                         "sceneId": 5,
                         "text": "'It has provided a living to many in this town over the years, including your mother.' Alexander replies angrily.",
-                        "sceneImage": "cave_white.png",
+                        "sceneImage": "angry-eyes.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1020,7 +1020,7 @@
                     {
                         "sceneId": 6,
                         "text": "'Yes, it really is quite sad' Alexander sounds sad. 'Anyway,  I've lots of things to take care of before the shut down process can begin. Call over sometime, Regina and I bought Bartosz a new console, I'm sure he's dying to have you over to play it.'",
-                        "sceneImage": "feather-necklace.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1032,7 +1032,7 @@
                     {
                         "sceneId": 7,
                         "text": "'See you around Jonas' Alexander drives through the gates and they shut behind him.",
-                        "sceneImage": "nuclear_plant_white.png",
+                        "sceneImage": "city-car.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1063,7 +1063,7 @@
                     {
                         "sceneId": 0,
                         "text": "You walk along the lake for about a kilometer when you see a familiar face. Bartosz stands by the edge of the lake, skipping stones into the lake's center. He eyes you approaching. 'Hey Jonas, welcome back to crazy town!'",
-                        "sceneImage": "character_full_white.png",
+                        "sceneImage": "stone-stack.png",
                         "options": [
                             {
                                 "optionText": "Hey Bartosz",
@@ -1075,7 +1075,7 @@
                     {
                         "sceneId": 1,
                         "text": "'Sorry, I shouldn't have said crazy town. I didn't mean anything by it!'",
-                        "sceneImage": "cowled.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "It's okay",
@@ -1092,7 +1092,7 @@
                     {
                         "sceneId": 2,
                         "text": "'Yeah, sorry about that.' remarks Bartosz, unapologetically. 'We missed you here over the summer man! It was so boring without you!'",
-                        "sceneImage": "discussion.png",
+                        "sceneImage": "shrug.png",
                         "options": [
                             {
                                 "optionText": "What did you get up to?",
@@ -1109,7 +1109,7 @@
                     {
                         "sceneId": 3,
                         "text": "'Ohh, so much! Magnus, Martha and I went to a rock concert, we went camping down here by the lake, smoked a lot of pot! Ohh and Martha and I began hooking up!'",
-                        "sceneImage": "conversation.png",
+                        "sceneImage": "converstion.png",
                         "options": [
                             {
                                 "optionText": "Sounds great",
@@ -1126,7 +1126,7 @@
                     {
                         "sceneId": 4,
                         "text": "'Ohh you don't have to be sarcastic, I know you had a thing for her! I'm sorry man, but you weren't here and one thing lead to another! We'll find you someone soon though, don't sweat it. Ohh and I think Magnus is fucking Francizka, can you believe that?'",
-                        "sceneImage": "worried-eyes.png",
+                        "sceneImage": "character_white.png",
                         "options": [
                             {
                                 "optionText": "No I can't",
@@ -1143,7 +1143,7 @@
                     {
                         "sceneId": 5,
                         "text": "'I know right! Ohh and I got a new Xbox! You should come over sometime and play Gears of War with me! It might help take your mind off everything!'",
-                        "sceneImage": "cave_white.png",
+                        "sceneImage": "console-controller.png",
                         "options": [
                             {
                                 "optionText": "Sure",
@@ -1160,7 +1160,7 @@
                     {
                         "sceneId": 6,
                         "text": "'Anyway, I gotta go man, Mama is cooking dinner so I better get home. See you later man!'",
-                        "sceneImage": "feather-necklace.png",
+                        "sceneImage": "walk.png",
                         "options": [
                             {
                                 "optionText": "See you later",
@@ -1191,7 +1191,7 @@
                     {
                         "sceneId": 0,
                         "text": "As you enter the hospital you immediately recognise a faint but clear sense of death lingering to every surface of the building. As you walk, you notice an open door up ahead.",
-                        "sceneImage": "character_full_white.png",
+                        "sceneImage": "hospital_white.png",
                         "options": [
                             {
                                 "optionText": "Approach",
@@ -1208,7 +1208,7 @@
                     {
                         "sceneId": 1,
                         "text": "You peer in the door and see an old man pacing around the room. He hears you enter, qucikly turns to face you. He appears to be mumbling to himself as he approaches you.",
-                        "sceneImage": "cowled.png",
+                        "sceneImage": "walk.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1220,7 +1220,7 @@
                     {
                         "sceneId": 2,
                         "text": "As the man approaches you see his face is heavily disfigured. You realize Helge Doppler stands before you. 'It's going to happen again' he whispers softly, directing it at no one in particular. 'It's going to happen again' he repeats.",
-                        "sceneImage": "discussion.png",
+                        "sceneImage": "pig-face.png",
                         "options": [
                             {
                                 "optionText": "What's going to happen again?",
@@ -1266,7 +1266,7 @@
                     {
                         "sceneId": 5,
                         "text": "'The White Devil….. Noah!' The man clenches your shoulders and leans in. 'You must stop him….. You must!'",
-                        "sceneImage": "cave_white.png",
+                        "sceneImage": "devil-mask.png",
                         "options": [
                             {
                                 "optionText": "Who is Noah? What is he going to do?",
@@ -1283,7 +1283,7 @@
                     {
                         "sceneId": 6,
                         "text": "Before Helge can respond, two nurses appear. 'What are you doing here? You cannot be here, leave immediately!'",
-                        "sceneImage": "feather-necklace.png",
+                        "sceneImage": "nurse-female.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1300,7 +1300,7 @@
                     {
                         "sceneId": 7,
                         "text": "'Leave now or I am calling the police!' screams one of the nurses.",
-                        "sceneImage": "lake_white.png",
+                        "sceneImage": "shouting.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1317,7 +1317,7 @@
                     {
                         "sceneId": 8,
                         "text": "You begin walking back down the hall. All the while you hear Helge wailing. 'It's going to happen again! Find the bunker! Two lefts, one right!'",
-                        "sceneImage": "lake_white.png",
+                        "sceneImage": "walk.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1348,7 +1348,7 @@
                     {
                         "sceneId": 0,
                         "text": "You enter the retirement home and approach the reception desk. A nurse turns to face you. 'Here to see your grandmother Jonas? She's just down the hall to the right.'",
-                        "sceneImage": "character_full_white.png",
+                        "sceneImage": "nurse-female.png",
                         "options": [
                             {
                                 "optionText": "Proceed down hall",
@@ -1360,7 +1360,7 @@
                     {
                         "sceneId": 1,
                         "text": "You walk down the familiar hall and come across a familiar door. You knock on it and a few seconds later your grandmother appears at the door. 'Jonas! What a pleasant surprise, please come in!'",
-                        "sceneImage": "cowled.png",
+                        "sceneImage": "door.png",
                         "options": [
                             {
                                 "optionText": "Hi Granny",
@@ -1372,7 +1372,7 @@
                     {
                         "sceneId": 2,
                         "text": "'It's so nice to see you! I missed you over the summer, your mother told me you were away for a while. Is everything okay?'",
-                        "sceneImage": "discussion.png",
+                        "sceneImage": "nun-face.png",
                         "options": [
                             {
                                 "optionText": "I spent the summer in a psychiatric hospital",
@@ -1418,7 +1418,7 @@
                     {
                         "sceneId": 5,
                         "text": "'I don't know who they were, your father never told me what really happened the day before he arrived. I tried asking him many times but he never wanted to talk about it. I think it still haunted him deep down, maybe that was what caused him to do what he did'",
-                        "sceneImage": "cave_white.png",
+                        "sceneImage": "worried-eyes.png",
                         "options": [
                             {
                                 "optionText": "Yes, maybe it is",
@@ -1430,7 +1430,7 @@
                     {
                         "sceneId": 6,
                         "text": "'You should run along deary, find comfort in your friends, in Martha and Magnus and Bartosz.'",
-                        "sceneImage": "feather-necklace.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1442,7 +1442,7 @@
                     {
                         "sceneId": 7,
                         "text": "'Speaking of which, that Mikkel kid looks more and more like your father did at his age every day!'",
-                        "sceneImage": "lake_white.png",
+                        "sceneImage": "idea.png",
                         "options": [
                             {
                                 "optionText": "Leave",
@@ -1473,7 +1473,7 @@
                     {
                         "sceneId": 0,
                         "text": "As you walk through the school yard you feel the glare of every person staring at you.",
-                        "sceneImage": "character_full_white.png",
+                        "sceneImage": "six-eyes.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1485,7 +1485,7 @@
                     {
                         "sceneId": 1,
                         "text": "As you climb the steps to the school entrance you hear a shout. 'Hey Jonas!'",
-                        "sceneImage": "cowled.png",
+                        "sceneImage": "shouting.png",
                         "options": [
                             {
                                 "optionText": "Turn to see",
@@ -1497,7 +1497,7 @@
                     {
                         "sceneId": 2,
                         "text": "You turn around and see Bartosz, Martha and Magnus approaching. 'Long time no see!' roars Bartosz as he wraps you in a hug.",
-                        "sceneImage": "discussion.png",
+                        "sceneImage": "character_white.png",
                         "options": [
                             {
                                 "optionText": "Hey, good to see you guys!",
@@ -1526,7 +1526,7 @@
                     {
                         "sceneId": 4,
                         "text": "'It's all good man!' As Bartosz disembraces you he quickly and deliberately turns around and gives Martha a kiss. You feel your stomach lurch as he does.'Knock it off you two please!' remarks Magnus in disgust. 'He hasn't been able to keep away from my sister all summer Jonas, it's been torture.'",
-                        "sceneImage": "worried-eyes.png",
+                        "sceneImage": "lovers.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1538,7 +1538,7 @@
                     {
                         "sceneId": 5,
                         "text": "'Haha stop teasing Magnus! Besides you've been busy too with Franciszka amirite?!' 'Knock it off Bartosz!' screams Martha in disgust.",
-                        "sceneImage": "cave_white.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1550,7 +1550,7 @@
                     {
                         "sceneId": 6,
                         "text": "Before anyone can say another word, a younger boy, at least 4 years younger than the others present breaks through into the gathering. 'Hey Jonas! How was France?'",
-                        "sceneImage": "feather-necklace.png",
+                        "sceneImage": "converstion.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1562,7 +1562,7 @@
                     {
                         "sceneId": 7,
                         "text": "Before you can answer Magnus clips the young boy on the back of the head. 'Ignore my brother Jonas' 'Oww!' shrieks Mikkel, the younger boy. 'What did you do that for?'",
-                        "sceneImage": "lake_white.png",
+                        "sceneImage": "slap.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1574,7 +1574,7 @@
                     {
                         "sceneId": 8,
                         "text": "'Because I'm your older brother dipshit' replies Magnus. Mikkel turns back to you. 'Hey Jonas, want to see a magic trick?'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "magic-trick.png",
                         "options": [
                             {
                                 "optionText": "Sure",
@@ -1583,7 +1583,7 @@
                             },
                             {
                                 "optionText": "No thanks",
-                                "nextScene": "TODO",
+                                "nextScene": 15,
                                 "dependantVariables": []
                             }
                         ]
@@ -1591,7 +1591,7 @@
                     {
                         "sceneId": 9,
                         "text": "'Ohh God, I'm sorry Jonas, Mikkel has been studying magic tricks all summer, he thinks he's the next Houdini!' Ignoring his brother, Mikkel produces three cups from his pockets.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "glass-shot.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1603,7 +1603,7 @@
                     {
                         "sceneId": 10,
                         "text": "He places the three cups facedown on a table in the yard. He then produces a small ball and places it under one of the cups.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "plain-circle.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1615,7 +1615,7 @@
                     {
                         "sceneId": 11,
                         "text": "He then switches the position of the cups multiple times but at a seemingly deliberate slow pace and it is easy to keep track of where the ball is.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "cycle.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1627,7 +1627,7 @@
                     {
                         "sceneId": 12,
                         "text": "Mikkel stops moving the cups. You know that the cup is under the middle cup.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "glass-shot.png",
                         "options": [
                             {
                                 "optionText": "Point to the middle cup",
@@ -1639,7 +1639,7 @@
                     {
                         "sceneId": 13,
                         "text": "Mikkel lifts the cup and shows it to you. The cup is empty. He then lifts the rightmost cup to reveal the ball.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "magic-palm.png",
                         "options": [
                             {
                                 "optionText": "How did you do that?",
@@ -1651,7 +1651,7 @@
                     {
                         "sceneId": 14,
                         "text": "'It's not a question of how' replies Mikkel 'But <i>when</i>.' As he finishes, you feel a strange sense of déjá vu.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "time-trap.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1663,7 +1663,7 @@
                     {
                         "sceneId": 15,
                         "text": "Before you can respond Magnus jumps in. 'Enough of that Mikkel' Magnus clips Mikkel on the back of the head again.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "slap.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1675,7 +1675,7 @@
                     {
                         "sceneId": 16,
                         "text": "As he does, you hear a crackle as the school speakers in the yard burst to life. 'Attention all students, please proceed to the gymnasium for the start of year announcement'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "speaker.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1687,7 +1687,7 @@
                     {
                         "sceneId": 17,
                         "text": "Martha speaks up. 'Guess we better head in' Magnus, Martha, Bartosz and Mikkel begin heading in to the school building",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "Follow the group",
@@ -1699,7 +1699,7 @@
                     {
                         "sceneId": 18,
                         "text": "You make your way in to the assembly hall and sit down next to Magnus. As you do a middle-aged woman makes her way on to the stage at the front of the assembly hall. You recognise her as Katharina Nielsen.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "public-speaker.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1711,7 +1711,7 @@
                     {
                         "sceneId": 19,
                         "text": "Katharina speaks up. 'Hello everyone and welcome back, I hope you all enjoyed your summer break.'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "nothing-to-say.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1723,7 +1723,7 @@
                     {
                         "sceneId": 20,
                         "text": "Katharina's voice turns somber. 'Before we begin this new school year, I feel it's important to talk about the elephant in the room. As I am sure most of you know already, Erik Obendorff, a student here disappeared a few days ago'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "worried-eyes.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1735,7 +1735,7 @@
                     {
                         "sceneId": 21,
                         "text": "'Erik was last scene entering the forest near the school here on November 1st. No one has seen him since'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "forest_white.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1759,7 +1759,7 @@
                     {
                         "sceneId": 23,
                         "text": "'Likewise please look out for each other, do not go wandering around the forest or caves late at night'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "cave_white.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1771,7 +1771,7 @@
                     {
                         "sceneId": 24,
                         "text": "Katharina's demeanor suddenly changes as she forces a smile. 'And lastly, anyone interested in auditioning for the school play please fill in the form in the hallway!'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "public-speaker.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1783,7 +1783,7 @@
                     {
                         "sceneId": 25,
                         "text": "Katharina departs the stage and students begin departing. 'C'mon, let's go' Bartosz nudges you to your feet.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "walk.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1795,7 +1795,7 @@
                     {
                         "sceneId": 26,
                         "text": "You leave the hall and begin enter the corridor to find Martha, Bartosz and Magnus standing to one side.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "converstion.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1807,7 +1807,7 @@
                     {
                         "sceneId": 27,
                         "text": "Bartosz speaks up. 'What a load of crap! Erik definitely just ran off, wanted to leave this stupid town. Who can blame him?'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "I don't think that's what happened",
@@ -1829,7 +1829,7 @@
                     {
                         "sceneId": 28,
                         "text": "'What do you know? You've been away with the fairies all summer' retorts Bartosz",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "angry-eyes.png",
                         "options": [
                             {
                                 "optionText": "More than you anyway, dipshit",
@@ -1846,7 +1846,7 @@
                     {
                         "sceneId": 29,
                         "text": "Bartosz stares at you for a few seconds before breaking into laughter. 'Hahaha that's the Jonas I remember!'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1858,7 +1858,7 @@
                     {
                         "sceneId": 30,
                         "text": "'Well whatever man, the point is he's gone' Bartosz says off handedly.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "face-to-face.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1870,7 +1870,7 @@
                     {
                         "sceneId": 31,
                         "text": "'Jonas! What the fuck?' Martha looks shocked at your response. 'Yeah, not cool man.' Magnus chimes in.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "angry-eyes.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1882,7 +1882,7 @@
                     {
                         "sceneId": 32,
                         "text": "'Anyway!' remarks Bartosz. 'I have a lead on where Erik's drug stash was.'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "medicines.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1899,7 +1899,7 @@
                     {
                         "sceneId": 33,
                         "text": "'Yeah, apparently he was dealing to a bunch of kids in school' Magnus speaks up.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "converstion.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1911,7 +1911,7 @@
                     {
                         "sceneId": 34,
                         "text": "'So the stash is over by the caves in the woods.' says Bartosz. 'I think we should go out there tonight and take the stash. Who's in?'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "cave_white.png",
                         "options": [
                             {
                                 "optionText": "I don't think that's a good idea",
@@ -1928,7 +1928,7 @@
                     {
                         "sceneId": 35,
                         "text": "'I agree with Jonas. I think it's a bad idea' remarks Martha shyly.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "worried-eyes.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1940,7 +1940,7 @@
                     {
                         "sceneId": 36,
                         "text": "'Well I'm heading anyway, I think we should meet up near the forest later and go together.'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1952,7 +1952,7 @@
                     {
                         "sceneId": 37,
                         "text": "'Yeah, sounds good. I'm not doing anything.' says Magnus. 'What about you Jonas?' asks Bartosz",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "nothing-to-say.png",
                         "options": [
                             {
                                 "optionText": "Yeah, okay",
@@ -1964,7 +1964,7 @@
                     {
                         "sceneId": 38,
                         "text": "'I guess that means I'm in too' says Martha. 'Great!' yells Bartosz. 'We'll meet out there at about 8.'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "shouting.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1976,7 +1976,7 @@
                     {
                         "sceneId": 39,
                         "text": "'See you all later then' The group breaks up and go their seperate ways.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "walk.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -1988,7 +1988,7 @@
                     {
                         "sceneId": 40,
                         "text": "The school day passes by without anything eventful.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "school_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -2019,7 +2019,7 @@
                     {
                         "sceneId": 0,
                         "text": "You approach the bunker. It's entrance is overgrown with vines and branches. However, you notice that a select few of the branches appear to have been cut away recently.",
-                        "sceneImage": "character_full_white.png",
+                        "sceneImage": "curling-vines.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -2031,7 +2031,7 @@
                     {
                         "sceneId": 1,
                         "text": "Behind the vines sits a large steel door. It looks quite heavy and it appears to be locked. A circular handle sits in the center of the door.",
-                        "sceneImage": "cowled.png",
+                        "sceneImage": "bunker_white.png",
                         "options": [
                             {
                                 "optionText": "Twist handle left",
@@ -2048,7 +2048,7 @@
                     {
                         "sceneId": 2,
                         "text": "The door is still locked",
-                        "sceneImage": "discussion.png",
+                        "sceneImage": "bunker_white.png",
                         "options": [
                             {
                                 "optionText": "Twist handle left",
@@ -2070,7 +2070,7 @@
                     {
                         "sceneId": 3,
                         "text": "As you twist the handle you hear the lock mechanism give and the door open. Inside the bunker you see steps descending into the ground as far as you can see.",
-                        "sceneImage": "conversation.png",
+                        "sceneImage": "padlock.png",
                         "options": [
                             {
                                 "optionText": "Continue into bunker.",
@@ -2087,7 +2087,7 @@
                     {
                         "sceneId": 4,
                         "text": "You arrive at the bottom of the steps but the room is poorly lit and you cannot see much.",
-                        "sceneImage": "worried-eyes.png",
+                        "sceneImage": "stairs-white.png",
                         "options": [
                             {
                                 "optionText": "Turn on phone light.",
@@ -2099,7 +2099,7 @@
                     {
                         "sceneId": 5,
                         "text": "With light on, you see you are in a small empty room. There are no other doors leaving the room except for the one you came through.",
-                        "sceneImage": "cave_white.png",
+                        "sceneImage": "worried-eyes.png",
                         "options": [
                             {
                                 "optionText": "Inspect wall of room.",
@@ -2121,7 +2121,7 @@
                     {
                         "sceneId": 6,
                         "text": "You inspect the wall of the room. It appears dull and uninteresting at first but as you walk around the room you notice some markings scrawled across one of the walls in chalk.",
-                        "sceneImage": "feather-necklace.png",
+                        "sceneImage": "broken-wall.png",
                         "options": [
                             {
                                 "optionText": "Inspect",
@@ -2133,7 +2133,7 @@
                     {
                         "sceneId": 7,
                         "text": "Inspecting the markings you notice the markings form three circles all intersecting each other. The each circle has a number in it. <i>1953, 1986, 2019</i>",
-                        "sceneImage": "lake_white.png",
+                        "sceneImage": "triorb.png",
                         "options": [
                             {
                                 "optionText": "Stop inspecting wall",
@@ -2145,7 +2145,7 @@
                     {
                         "sceneId": 8,
                         "text": "The floor of the room appears unremarkable and covered in dust. However, you do notice tracks in the dust where something appears to have been dragged along the floor recently.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "tire-tracks.png",
                         "options": [
                             {
                                 "optionText": "Follow tracks",
@@ -2157,7 +2157,7 @@
                     {
                         "sceneId": 9,
                         "text": "Following the tracks, you arrive at the center of the room. The tracks stop and in the center on the ground you find a necklace.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "feather-necklace.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2169,7 +2169,7 @@
                     {
                         "sceneId": 10,
                         "text": "You leave the bunker.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "bunker_white.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2181,7 +2181,7 @@
                     {
                         "sceneId": 11,
                         "text": "The bunker is locked.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "bunker_white.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2199,8 +2199,8 @@
                 "scenes": [
                     {
                         "sceneId": 0,
-                        "text": "You approach the bunker and look in the window. The shop appears to have been shut for sometime. All you can make out inside are boxes and furniture covered in dust.",
-                        "sceneImage": "character_full_white.png",
+                        "text": "You approach the shop and look in the window. The shop appears to have been shut for sometime. All you can make out inside are boxes and furniture covered in dust.",
+                        "sceneImage": "clock_shop_white.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2212,7 +2212,7 @@
                     {
                         "sceneId": 1,
                         "text": "As you peer through the window, you hear a voice call out beside you. 'Time is a curious thing'",
-                        "sceneImage": "cowled.png",
+                        "sceneImage": "nothing-to-say.png",
                         "options": [
                             {
                                 "optionText": "Turn to face stranger",
@@ -2224,7 +2224,7 @@
                     {
                         "sceneId": 2,
                         "text": "You turn and see a hooded middle aged man, he appears ragged and dirty. 'You look a lot like him'",
-                        "sceneImage": "discussion.png",
+                        "sceneImage": "cowled.png",
                         "options": [
                             {
                                 "optionText": "Like who?",
@@ -2263,7 +2263,7 @@
                     {
                         "sceneId": 4,
                         "text": "'Your father. I knew him' The stranger looks you up and down. 'It was a long time ago but I remember him well.'",
-                        "sceneImage": "worried-eyes.png",
+                        "sceneImage": "ages.png",
                         "options": [
                             {
                                 "optionText": "How did you know my father?",
@@ -2275,7 +2275,7 @@
                     {
                         "sceneId": 5,
                         "text": "'He saved my life. But I only realized that much later.'",
-                        "sceneImage": "cave_white.png",
+                        "sceneImage": "character_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -2292,7 +2292,7 @@
                     {
                         "sceneId": 6,
                         "text": "'Life is a labyrinth. Some people wander around their whole lives looking for a way out, but there's only one path and it leads you ever deeper.'",
-                        "sceneImage": "feather-necklace.png",
+                        "sceneImage": "maze.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2309,7 +2309,7 @@
                     {
                         "sceneId": 7,
                         "text": "'You don't understand it until you've reached the center'",
-                        "sceneImage": "lake_white.png",
+                        "sceneImage": "magic-portal.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2326,7 +2326,7 @@
                     {
                         "sceneId": 8,
                         "text": "'Death is incomprehensible but you can make peace with it.'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "telefrag.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2343,7 +2343,7 @@
                     {
                         "sceneId": 9,
                         "text": "'Till then you should ask yourself each day if you've made the right decisions.'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "nothing-to-say.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2360,7 +2360,7 @@
                     {
                         "sceneId": 10,
                         "text": "The stranger walks away and you feel a sudden sense of déjá vu",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "walk.png",
                         "options": [
                             {
                                 "optionText": "Leave",
@@ -2403,7 +2403,7 @@
                     {
                         "sceneId": 1,
                         "text": "Martha spies you approaching. 'Hey! Good to see you'",
-                        "sceneImage": "cowled.png",
+                        "sceneImage": "heart-inside.png",
                         "options": [
                             {
                                 "optionText": "Good to see you too.",
@@ -2415,7 +2415,7 @@
                     {
                         "sceneId": 2,
                         "text": "'It's so quiet out here tonight isn't it?' Martha asks, looking at you intently. As she does, you get a weird sense of déjá vu and you stumble back half a step.",
-                        "sceneImage": "discussion.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2427,7 +2427,7 @@
                     {
                         "sceneId": 3,
                         "text": "'Are you okay?' Martha asks.",
-                        "sceneImage": "conversation.png",
+                        "sceneImage": "nothing-to-say.png",
                         "options": [
                             {
                                 "optionText": "I just had the weirdest sense of déjá vu.",
@@ -2444,7 +2444,7 @@
                     {
                         "sceneId": 4,
                         "text": "'A glitch in the matrix.' Martha laughs. 'Some people say that if life is a simulation then déjá vu is a glitch in the matrix, that or a message from the other side!'",
-                        "sceneImage": "worried-eyes.png",
+                        "sceneImage": "computing.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2456,7 +2456,7 @@
                     {
                         "sceneId": 5,
                         "text": "Martha moves closer to you. 'I'm glad you're back, I missed you so much over the summer.'",
-                        "sceneImage": "cave_white.png",
+                        "sceneImage": "lovers.png",
                         "options": [
                             {
                                 "optionText": "I missed you too.",
@@ -2473,7 +2473,7 @@
                     {
                         "sceneId": 6,
                         "text": "Before Martha can respond you hear two more sets of footsteps approaching. You both turn to see Magnus and Mikkel approaching. 'Hey, what the hell?' asks Martha to the approaching pair.",
-                        "sceneImage": "feather-necklace.png",
+                        "sceneImage": "footsteps.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2485,7 +2485,7 @@
                     {
                         "sceneId": 7,
                         "text": "'Parents' meeting, I'm stuck with him' responds Magnus. 'Take him back now' Martha demands. 'You take him back' Magnus retorts. 'Relax guys, I'm not a baby anymore' pipes up Mikkel 'Hey Jonas, ultimate fistbump?'",
-                        "sceneImage": "lake_white.png",
+                        "sceneImage": "ages.png",
                         "options": [
                             {
                                 "optionText": "Fistbump",
@@ -2502,7 +2502,7 @@
                     {
                         "sceneId": 8,
                         "text": "'Awesome!' Mikkel smiles.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "punch-blast.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2514,7 +2514,7 @@
                     {
                         "sceneId": 9,
                         "text": "You hear another set of footsteps approaching. You all turn around to see Bartosz approaching. 'What's the idiot doing here?' asks Bartosz, looking at Mikkel.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2526,7 +2526,7 @@
                     {
                         "sceneId": 10,
                         "text": "'Forget it, let's go.' Magnus beckons towards the cave and you all begin walking. Bartosz wraps his arm around Martha as you walk.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "walk.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2538,7 +2538,7 @@
                     {
                         "sceneId": 11,
                         "text": "After 20 minutes of walking you arrive at the cave. There is a collection of abandoned and rotting furniture near the cave entrance. 'Over there.' says Bartosz 'In the armchair'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "cave_white.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2550,7 +2550,7 @@
                     {
                         "sceneId": 12,
                         "text": "Bartosz runs over and inspects the armchair. He checks in all the hidden joints. 'Fuck man, it was here' he finds nothing.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "sofa.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2562,7 +2562,7 @@
                     {
                         "sceneId": 13,
                         "text": "'Looking for this?' a female voice calls out from the cave entrance. The group turns to see Francizka Doppler standing in the cave entrance holding a package aloft in one hand.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "shadow-follower.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2574,7 +2574,7 @@
                     {
                         "sceneId": 14,
                         "text": "'Hey that's mine!' roars Bartosz. 'I believe that possession is nine-tenths of the law, so it's mine for now.' retorts Francizka.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2586,7 +2586,7 @@
                     {
                         "sceneId": 15,
                         "text": "'But I'll sell it to you, what's here is easily worth 500. I'll sell it to you for 200. Daddy's got plenty of money.'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "medicines.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2598,7 +2598,7 @@
                     {
                         "sceneId": 16,
                         "text": "'Stop the bullshit' roars Bartosz as he grabs the parcel from Francizka and shoves her to the ground. 'Jackpot!' yells Bartosz as he turns away from Francizka and looks at the group.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "slap.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2610,7 +2610,7 @@
                     {
                         "sceneId": 17,
                         "text": "Suddenly, you hear a loud drum-like sound come from the cave entrance. The group turns around and looks into the cave. 'What's that?' asks Magnus.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "resonance.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2622,7 +2622,7 @@
                     {
                         "sceneId": 18,
                         "text": "From the trees you hear small branches breaking under footsteps. 'Someone's there' yells Martha.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "boot-stomp.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2634,7 +2634,7 @@
                     {
                         "sceneId": 19,
                         "text": "The drum-like sound from the cave repeats and everyone's flashlight begins flickering. An ominous, electrical sound begins ringing in your ears.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "resonance.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2646,7 +2646,7 @@
                     {
                         "sceneId": 20,
                         "text": "'Move, RUN!' screams Magnus.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "shouting.png",
                         "options": [
                             {
                                 "optionText": "Turn and run",
@@ -2658,7 +2658,7 @@
                     {
                         "sceneId": 21,
                         "text": "You turn and run however with no flashlights you cannot see very well and quickly become seperated from the group.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "flashlight.png",
                         "options": [
                             {
                                 "optionText": "Continue running",
@@ -2670,7 +2670,7 @@
                     {
                         "sceneId": 22,
                         "text": "You stumble and hit the ground. As you stand up you hear a voice whisper in the dark. 'Jonas...'",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "falling.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2682,7 +2682,7 @@
                     {
                         "sceneId": 23,
                         "text": "Your flashlight bursts back to life and you see, standing ten feet away from you, an tall man you don't recognise, covered in blood.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "bleeding-eye.png",
                         "options": [
                             {
                                 "optionText": "Run away.",
@@ -2694,7 +2694,7 @@
                     {
                         "sceneId": 24,
                         "text": "You continue running and eventually find yourself back at the beginning of the path to the cave. Bartosz, Martha and Magnus are waiting there.",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "crossroad.png",
                         "options": [
                             {
                                 "optionText": "Where is Mikkel?",
@@ -2705,11 +2705,11 @@
                     },
                     {
                         "sceneId": 25,
-                        "text": "You continue running and eventually find yourself back at the beginning of the path to the cave. Bartosz, Martha and Magnus are waiting there.",
-                        "sceneImage": "retirement_home_white.png",
+                        "text": "'He's not with you?' yells Magnus.",
+                        "sceneImage": "discussion.png",
                         "options": [
                             {
-                                "optionText": "Where is Mikkel?",
+                                "optionText": "No I thought he was with you!",
                                 "nextScene": 26,
                                 "dependantVariables": []
                             }
@@ -2717,11 +2717,11 @@
                     },
                     {
                         "sceneId": 26,
-                        "text": "You continue running and eventually find yourself back at the beginning of the path to the cave. Bartosz, Martha and Magnus are waiting there.",
-                        "sceneImage": "retirement_home_white.png",
+                        "text": "Magnus begins running back into the woods yelling. 'Mikkel!' as he does.",
+                        "sceneImage": "run.png",
                         "options": [
                             {
-                                "optionText": "Where is Mikkel?",
+                                "optionText": "Continue",
                                 "nextScene": 27,
                                 "dependantVariables": []
                             }
@@ -2729,32 +2729,8 @@
                     },
                     {
                         "sceneId": 27,
-                        "text": "'He's not with you?' yells Magnus.",
-                        "sceneImage": "retirement_home_white.png",
-                        "options": [
-                            {
-                                "optionText": "No I thought he was with you!",
-                                "nextScene": 28,
-                                "dependantVariables": []
-                            }
-                        ]
-                    },
-                    {
-                        "sceneId": 28,
-                        "text": "Magnus begins running back into the woods yelling. 'Mikkel!' as he does.",
-                        "sceneImage": "retirement_home_white.png",
-                        "options": [
-                            {
-                                "optionText": "Continue",
-                                "nextScene": 29,
-                                "dependantVariables": []
-                            }
-                        ]
-                    },
-                    {
-                        "sceneId": 28,
                         "text": "An hour passes with no sign of Mikkel. Martha calls the cops and they begin searching the woods. They never find him",
-                        "sceneImage": "retirement_home_white.png",
+                        "sceneImage": "cave_white.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -2769,12 +2745,12 @@
         "endings": [
             {
                 "endingId": 0,
-                "endImage": "",
+                "endImage": "portal.png",
                 "endText": "As the search for Mikkel wages on, you are troubled by the events you witnessed and sense there is a deeper mystery to be solved than just two missing boys. How will you solve it? That is a story for another time...."
             },
             {
                 "endingId": 1,
-                "endImage": "",
+                "endImage": "prisoner.png",
                 "endText": "You spend the next few days locked behind bars. While inside more children disappear from the town. You sense there is a grand mystery to be solved but behind bars you are helpless to do anything...."
             }
         ]
