@@ -2034,12 +2034,7 @@
                         "sceneImage": "bunker_white.png",
                         "options": [
                             {
-                                "optionText": "Twist handle left",
-                                "nextScene": 2,
-                                "dependantVariables": []
-                            },
-                            {
-                                "optionText": "Twist handle right",
+                                "optionText": "Attempt to twist handle",
                                 "nextScene": 2,
                                 "dependantVariables": []
                             }
