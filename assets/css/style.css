@@ -119,4 +119,12 @@ main {
     border-color: var(--black-body);
     color: var(--off-white);
 }
+
+.about-link {
+    color: var(--off-white);
+    text-decoration: none;
+}
+
+.about-link:hover {
+    color: var(--black-game);
 }
