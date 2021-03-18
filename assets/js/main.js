@@ -42,7 +42,7 @@ function startGame() {
             "optionId": 0,
             "optionText": "End Game"
         }, {
-            "optionId": -1,
+            "optionId": "restart",
             "optionText": "Restart Game"
         });
 
