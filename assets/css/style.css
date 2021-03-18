@@ -144,12 +144,14 @@ section {
     border-top: 0px;
 }
 
+/* feedback modal input classes */
 .feedback-input {
     background-color: var(--black-game);
     border-color: var(--black-body);
     color: var(--off-white);
 }
 
+/* about link class rules */
 .about-link {
     color: var(--off-white);
     text-decoration: none;
