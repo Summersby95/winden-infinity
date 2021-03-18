@@ -118,7 +118,8 @@ section {
     position: static;
     bottom: 0;
     text-align: center;
-    height: 5vh;
+    margin-top: 2vh;
+    height: 6vh;
     background-color: var(--black-header);
     padding-top: 1vh;
     color: var(--off-white);
