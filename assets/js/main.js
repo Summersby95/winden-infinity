@@ -16,8 +16,9 @@ let bunkerSuccessSeq = ['l', 'l', 'r'];
 
 $(document).ready(function() {
     getGameInfo(startGame);
-    var aboutModal = new bootstrap.Modal(document.getElementById('aboutModal'), {
-        keyboard: false
+
+    $("#submitFeedback").click(function() {
+        validateForm();
     });
 });
 
