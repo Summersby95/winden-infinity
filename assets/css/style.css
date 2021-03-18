@@ -86,7 +86,9 @@ section {
 
 .control-button {
     width: 90%;
-    height: 80%;
+    height: auto;
+    min-height: 100px;
+    margin: 5px 0px;
     background-color: var(--black-body);
     border: 1px solid var(--black);
     color: var(--off-white);
