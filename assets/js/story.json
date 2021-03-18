@@ -1092,7 +1092,7 @@
                     {
                         "sceneId": 2,
                         "text": "'That's great to hear!' remarks Alexander, smiling. 'It's great to see another generation interested in Nuclear energy.'",
-                        "sceneImage": "character-white.png",
+                        "sceneImage": "character_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
