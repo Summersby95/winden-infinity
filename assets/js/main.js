@@ -18,7 +18,7 @@ $(document).ready(function() {
     getGameInfo(startGame);
     var aboutModal = new bootstrap.Modal(document.getElementById('aboutModal'), {
         keyboard: false
-});
+    });
 });
 
 
@@ -35,7 +35,7 @@ function startGame() {
 
     let options = [];
     let scene;
-    
+
     if (endingId !== undefined) {
         options.push({
             "optionId": 0,
@@ -109,14 +109,14 @@ function buildOptions(options) {
     $(".controls-container").html(controlsTemplate);
     
     if (endingId === undefined) {
-    $(".control-button").click(function() {
-        processControl($(this).val());
-    });
+        $(".control-button").click(function() {
+            processControl($(this).val());
+        });
     } else {
         $(".control-button").click(function() {
             aboutModal.toggle();
         });
-}
+    }
 }
 
 function buildScene(scene) {
@@ -130,7 +130,7 @@ function processControl(controlVal) {
     } else if (currentSceneId === undefined) {
         if (controlVal == -1) {
             let sequenceSearch = $.grep(gameData.story.sequences, (sequence, seqIndex) => {
-                return sequence.locationId == currentLocationId; 
+                return sequence.locationId == currentLocationId;
             });
 
             currentSequence = sequenceSearch[0];
@@ -159,7 +159,7 @@ function processControl(controlVal) {
             }
         } else if (controlVal == -1) {
             if (currentSequenceId != 11) {
-            completedSequences.push(currentSequenceId);
+                completedSequences.push(currentSequenceId);
             }
             currentSceneId = undefined;
             currentSequenceId = undefined;
