@@ -13,6 +13,18 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+main {
+    min-height: 100vh;
+}
+
+nav {
+    background-color: var(--black-header);
+}
+
+section {
+    padding: 3vh 0;
+}
+
 .game-container {
     background-color: var(--black-game);
     width: 80%;
@@ -38,14 +50,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 0;
-}
-
-#game-canvas {
-    height: 40vh;
-    margin: 10px;
-    background-color: var(--black);
-    max-width: 90%;
-    border-radius: 10px;
 }
 
 .control-button {
@@ -76,13 +80,6 @@ body {
 nav {
     background-color: var(--black-header);
 }
-
-section {
-    padding: 3vh 0;
-}
-
-main {
-    height: 100vh;
 }
 
 .scene-text-div {
