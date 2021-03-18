@@ -88,20 +88,20 @@
                 "scenes": [
                     {
                         "sceneId": 0,
-                        "text": "November 4th 2019",
-                        "sceneImage": "calendar_white.png",
+                        "text": "Welcome to Winden.",
+                        "sceneImage": "infinity-logo.png",
                         "options": [
                             {
-                                "optionText": "Okay",
+                                "optionText": "Begin Journey",
                                 "nextScene": 1,
                                 "dependantVariables": []
                             }
                         ]
-                    }, 
+                    },
                     {
                         "sceneId": 1,
-                        "text": "You wake with a fright. The memory of that awful scene still haunts you every night",
-                        "sceneImage": "eyeball_white.png",
+                        "text": "Your name is Jonas Kahnwald, you are 17 years old.",
+                        "sceneImage": "jacket_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -112,16 +112,11 @@
                     },
                     {
                         "sceneId": 2,
-                        "text": "You go downstairs to get some breakfast. You call for your mother.",
-                        "sceneImage": "stairs_white.png",
+                        "text": "Your goal is to uncover the truth behind recent unexplained events in Winden",
+                        "sceneImage": "village_white.png",
                         "options": [
                             {
-                                "optionText": "Mama",
-                                "nextScene": 3,
-                                "dependantVariables": []
-                            }, 
-                            {
-                                "optionText": "Hannah",
+                                "optionText": "Okay",
                                 "nextScene": 3,
                                 "dependantVariables": []
                             }
@@ -129,16 +124,11 @@
                     },
                     {
                         "sceneId": 3,
-                        "text": "You hear a flurry of footsteps, more than one set of feet, which surprises you given your father's recent suicide and that no one else should be in the house. You open the fridge and find a bottle of milk, it's one day past expiry",
-                        "sceneImage": "milk_white.png",
+                        "text": "To do this you will have to make decisions. These decisions will affect the outcome of the game.",
+                        "sceneImage": "choice.png",
                         "options": [
                             {
-                                "optionText": "Chance it",
-                                "nextScene": 4,
-                                "dependantVariables": []
-                            },
-                            {
-                                "optionText": "Get toast instead",
+                                "optionText": "Okay",
                                 "nextScene": 4,
                                 "dependantVariables": []
                             }
@@ -146,16 +136,16 @@
                     },
                     {
                         "sceneId": 4,
-                        "text": "Your mother walks down the stairs, she looks surprised that you are up. 'Why are you up Jonas?'",
-                        "sceneImage": "character_full_white.png",
+                        "text": "You make decisions by clicking on the button beneath this text that best fits what you want your response to be.",
+                        "sceneImage": "button-finger.png",
                         "options": [
                             {
-                                "optionText": "It's the first day of school.",
+                                "optionText": "Okay",
                                 "nextScene": 5,
                                 "dependantVariables": []
                             },
                             {
-                                "optionText": "I'm going to hang out with Marthat and Bartosz",
+                                "optionText": "I understand",
                                 "nextScene": 5,
                                 "dependantVariables": []
                             }
@@ -163,71 +153,56 @@
                     },
                     {
                         "sceneId": 5,
-                        "text": "'You know you don't have to go to school if you don't want to, you still need time to heal' As she walks by you detect the faint smell of aftershave on her neck, certainly not one that you recognise as belonging to your father.",
-                        "sceneImage": "perfume_white.png",
+                        "text": "You will encounter a lot of characters during your time in Winden such as Martha Nielsen, Magnus Nielsen, Bartosz Tiedemann and Mikkel Nielsen amongst others.",
+                        "sceneImage": "dozen.png",
                         "options": [
                             {
-                                "optionText": "I need to get out of the house.",
+                                "optionText": "Okay",
                                 "nextScene": 6,
-                                "dependantVariables": []
-                            },
-                            {
-                                "optionText": "Why is the Milk gone off?",
-                                "nextScene": 7,
-                                "dependantVariables": []
-                            },
-                            {
-                                "optionText": "Was there someone upstairs with you?",
-                                "nextScene": 8,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 6,
-                        "text": "'Okay, look after yourself' Your mother kisses you on the forehead.",
-                        "sceneImage": "hearts_white.png",
+                        "text": "But always remember, <i>Sic Mundus Creatus Est</i>",
+                        "sceneImage": "triorb.png",
                         "options": [
                             {
-                                "optionText": "Okay",
-                                "nextScene": 10,
+                                "optionText": "Start Game",
+                                "nextScene": 7,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 7,
-                        "text": "'I didn't get a chance to go to the shop yesterday' Your mother glares at you.",
-                        "sceneImage": "character_full_white.png",
+                        "text": "June 21st, 2019",
+                        "sceneImage": "calendar_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
-                                "nextScene": 10,
+                                "nextScene": 8,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 8,
-                        "text": "'Wha... What are you talking about?' Your mother spins and glares at you, shaking the coffee container she's holding",
-                        "sceneImage": "suspicious_white.png",
+                        "text": "Michael Kahnwald is found hanging from a beam in his attic studio.",
+                        "sceneImage": "suicide.png",
                         "options": [
                             {
-                                "optionText": "I heard footsteps upstairs",
+                                "optionText": "Okay",
                                 "nextScene": 9,
-                                "dependantVariables": []
-                            },
-                            {
-                                "optionText": "Nevermind",
-                                "nextScene": 10,
                                 "dependantVariables": []
                             }
                         ]
                     },
                     {
                         "sceneId": 9,
-                        "text": "'You must be imagining things' Your mother says nervously. 'You still see your dead father walking around, forget it'",
-                        "sceneImage": "character_white.png",
+                        "text": "He leaves behind an envelope. Written on the envelope is <i>'Do not open before November 4th, 10:13pm'</i>",
+                        "sceneImage": "envelope.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -238,8 +213,8 @@
                     },
                     {
                         "sceneId": 10,
-                        "text": "You finish your breakfast. Eager to get going, you rush back upstairs and grab your school things and make for the front door.",
-                        "sceneImage": "stairs_white.png",
+                        "text": "November 4th 2019",
+                        "sceneImage": "calendar_white.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -247,9 +222,159 @@
                                 "dependantVariables": []
                             }
                         ]
-                    },
+                    }, 
                     {
                         "sceneId": 11,
+                        "text": "You wake with a fright. The memory of that awful scene still haunts you every night",
+                        "sceneImage": "eyeball_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 12,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 12,
+                        "text": "You go downstairs to get some breakfast. You call for your mother.",
+                        "sceneImage": "stairs_white.png",
+                        "options": [
+                            {
+                                "optionText": "Mama",
+                                "nextScene": 13,
+                                "dependantVariables": []
+                            }, 
+                            {
+                                "optionText": "Hannah",
+                                "nextScene": 13,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 13,
+                        "text": "You hear a flurry of footsteps, more than one set of feet, which surprises you given your father's recent suicide and that no one else should be in the house. You open the fridge and find a bottle of milk, it's one day past expiry",
+                        "sceneImage": "milk_white.png",
+                        "options": [
+                            {
+                                "optionText": "Chance it",
+                                "nextScene": 14,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Get toast instead",
+                                "nextScene": 14,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 14,
+                        "text": "Your mother walks down the stairs, she looks surprised that you are up. 'Why are you up Jonas?'",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "It's the first day of school.",
+                                "nextScene": 15,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I'm going to hang out with Martha and Bartosz",
+                                "nextScene": 15,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 15,
+                        "text": "'You know you don't have to go to school if you don't want to, you still need time to heal' As she walks by you detect the faint smell of aftershave on her neck, certainly not one that you recognise as belonging to your father.",
+                        "sceneImage": "perfume_white.png",
+                        "options": [
+                            {
+                                "optionText": "I need to get out of the house.",
+                                "nextScene": 16,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Why is the Milk gone off?",
+                                "nextScene": 17,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Was there someone upstairs with you?",
+                                "nextScene": 18,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 16,
+                        "text": "'Okay, look after yourself' Your mother kisses you on the forehead.",
+                        "sceneImage": "hearts_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 17,
+                        "text": "'I didn't get a chance to go to the shop yesterday' Your mother glares at you.",
+                        "sceneImage": "character_full_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 18,
+                        "text": "'Wha... What are you talking about?' Your mother spins and glares at you, shaking the coffee container she's holding",
+                        "sceneImage": "suspicious_white.png",
+                        "options": [
+                            {
+                                "optionText": "I heard footsteps upstairs",
+                                "nextScene": 19,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "Nevermind",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 19,
+                        "text": "'You must be imagining things' Your mother says nervously. 'You still see your dead father walking around, forget it'",
+                        "sceneImage": "character_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 20,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 20,
+                        "text": "You finish your breakfast. Eager to get going, you rush back upstairs and grab your school things and make for the front door.",
+                        "sceneImage": "stairs_white.png",
+                        "options": [
+                            {
+                                "optionText": "Okay",
+                                "nextScene": 21,
+                                "dependantVariables": []
+                            }
+                        ]
+                    },
+                    {
+                        "sceneId": 21,
                         "text": "You hear your mother call out to you. 'Don't forget your yellow jacket, it's pouring outside!'",
                         "sceneImage": "jacket_white.png",
                         "options": [
