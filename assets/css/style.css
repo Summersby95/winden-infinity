@@ -70,7 +70,7 @@ body {
     height: 5vh;
     background-color: var(--black-header);
     padding-top: 1vh;
-    color: white;
+    color: var(--off-white);
 }
 
 nav {
