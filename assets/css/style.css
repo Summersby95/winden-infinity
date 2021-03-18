@@ -101,6 +101,19 @@ section {
     color: var(--black);
 }
 
+@media only screen and (min-width: 576px) {
+    .controls-container {
+        height: 28vh;
+        min-height: 0;
+    }
+    .control-button {
+        height: 80%;
+        margin: 0;
+        min-height: 0;
+    }
+}
+
+/* footer class rules */
 .footer-container {
     position: absolute;
     bottom: 0;
