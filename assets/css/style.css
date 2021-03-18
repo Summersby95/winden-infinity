@@ -1,5 +1,7 @@
+/* Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
 
+/* Root Variables */
 :root {
     --black-header: #1a1c20;
     --black-body: #252525;
@@ -7,6 +9,8 @@
     --off-white: #f9fcfb;
     --black: #000000;
 }
+
+/* element rules */
 
 body {
     background-color: var(--black-body);
@@ -25,6 +29,7 @@ section {
     padding: 3vh 0;
 }
 
+/* game container class rules */
 .game-container {
     background-color: var(--black-game);
     width: 80%;
