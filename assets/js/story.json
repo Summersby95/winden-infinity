@@ -2047,12 +2047,12 @@
                         "options": [
                             {
                                 "optionText": "Twist handle left",
-                                "nextScene": 2,
+                                "nextScene": "l",
                                 "dependantVariables": []
                             },
                             {
                                 "optionText": "Twist handle right",
-                                "nextScene": 2,
+                                "nextScene": "r",
                                 "dependantVariables": []
                             },
                             {
