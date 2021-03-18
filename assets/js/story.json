@@ -1109,7 +1109,7 @@
                     {
                         "sceneId": 3,
                         "text": "'Ohh, so much! Magnus, Martha and I went to a rock concert, we went camping down here by the lake, smoked a lot of pot! Ohh and Martha and I began hooking up!'",
-                        "sceneImage": "converstion.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Sounds great",
@@ -1550,7 +1550,7 @@
                     {
                         "sceneId": 6,
                         "text": "Before anyone can say another word, a younger boy, at least 4 years younger than the others present breaks through into the gathering. 'Hey Jonas! How was France?'",
-                        "sceneImage": "converstion.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1574,7 +1574,7 @@
                     {
                         "sceneId": 8,
                         "text": "'Because I'm your older brother dipshit' replies Magnus. Mikkel turns back to you. 'Hey Jonas, want to see a magic trick?'",
-                        "sceneImage": "magic-trick.png",
+                        "sceneImage": "magick-trick.png",
                         "options": [
                             {
                                 "optionText": "Sure",
@@ -1795,7 +1795,7 @@
                     {
                         "sceneId": 26,
                         "text": "You leave the hall and begin enter the corridor to find Martha, Bartosz and Magnus standing to one side.",
-                        "sceneImage": "converstion.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Continue",
@@ -1899,7 +1899,7 @@
                     {
                         "sceneId": 33,
                         "text": "'Yeah, apparently he was dealing to a bunch of kids in school' Magnus speaks up.",
-                        "sceneImage": "converstion.png",
+                        "sceneImage": "conversation.png",
                         "options": [
                             {
                                 "optionText": "Okay",
@@ -2087,7 +2087,7 @@
                     {
                         "sceneId": 4,
                         "text": "You arrive at the bottom of the steps but the room is poorly lit and you cannot see much.",
-                        "sceneImage": "stairs-white.png",
+                        "sceneImage": "stairs_white.png",
                         "options": [
                             {
                                 "optionText": "Turn on phone light.",
