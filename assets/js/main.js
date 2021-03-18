@@ -128,6 +128,14 @@ function buildScene(scene) {
     $("#scene-text").html(scene.text);
 }
 
+function processEnding(controlVal) {
+    if (controlVal == "restart") {
+        window.location.reload();
+    } else {
+        $("#aboutModal").modal('show');
+    }
+}
+
 function processControl(controlVal) {
     if (controlVal.includes("end")) {
         endingId = controlVal.split("_")[1];
