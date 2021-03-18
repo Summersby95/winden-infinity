@@ -64,10 +64,12 @@ section {
     margin-bottom: 0;
 }
 
+/* control container class rules */
 .controls-container {
     background-color: var(--black-game);
     width: 80%;
-    height: 30vh;
+    height: auto;
+    min-height: 200px;
     margin-top: 2vh;
     margin-left: auto;
     margin-right: auto;
