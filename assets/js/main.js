@@ -136,7 +136,14 @@ function processControl(controlVal) {
             currentSequence = sequenceSearch[0];
             currentSequenceId = currentSequence.sequenceId;
 
-            if (sequenceSearch.length === 0 || completedSequences.includes(sequenceSearch[0].sequenceId)) {
+            if (
+                sequenceSearch.length === 0 || 
+                completedSequences.includes(sequenceSearch[0].sequenceId) ||
+                    (
+                    currentSequenceId == 11 && 
+                    !completedSequences.includes(8)
+                    )
+                ) {
                 currentSceneId = currentSequence.scenes.length-1;
             } else {
                 currentSceneId = 0;
