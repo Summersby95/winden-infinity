@@ -390,7 +390,7 @@
                         "options": [
                             {
                                 "optionText": "Okay",
-                                "nextScene": "end1",
+                                "nextScene": "end_1",
                                 "dependantVariables": []
                             }
                         ]
@@ -532,7 +532,7 @@
                         "options": [
                             {
                                 "optionText": "Yes, I'd like to confess. I killed Erik.",
-                                "nextScene": "end1",
+                                "nextScene": "end_1",
                                 "dependantVariables": []
                             },
                             {
@@ -1309,7 +1309,7 @@
                             },
                             {
                                 "optionText": "No",
-                                "nextScene": "end1",
+                                "nextScene": "end_1",
                                 "dependantVariables": []
                             }
                         ]
@@ -2734,7 +2734,7 @@
                         "options": [
                             {
                                 "optionText": "Continue",
-                                "nextScene": "end0",
+                                "nextScene": "end_0",
                                 "dependantVariables": []
                             }
                         ]
