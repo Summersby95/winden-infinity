@@ -36,7 +36,17 @@ function startGame() {
     let options = [];
     let scene;
     
-    if (currentSceneId === undefined) {
+    if (endingId !== undefined) {
+        options.push({
+            "optionId": 0,
+            "optionText": "End Game"
+        });
+
+        scene = {
+            "image": gameData.story.endings[endingId].endImage,
+            "text": gameData.story.endings[endingId].endText
+        };
+    } else if (currentSceneId === undefined) {
         let locationIds = currentLocation.connectedLocations;
 
         $.each(locationIds, (indexInArray, locationId) => { 
