@@ -64,6 +64,8 @@ body {
 }
 
 .footer-container {
+    position: absolute;
+    bottom: 0;
     text-align: center;
     height: 5vh;
     background-color: var(--black-header);
