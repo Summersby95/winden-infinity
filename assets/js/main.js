@@ -118,7 +118,7 @@ function buildOptions(options) {
         });
     } else {
         $(".control-button").click(function() {
-            $("#aboutModal").modal('show');
+            processEnding($(this).val());
         });
     }
 }
