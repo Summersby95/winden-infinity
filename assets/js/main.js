@@ -115,7 +115,7 @@ function buildOptions(options) {
         });
     } else {
         $(".control-button").click(function() {
-            aboutModal.toggle();
+            $("#aboutModal").modal('show');
         });
     }
 }
