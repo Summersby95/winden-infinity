@@ -125,7 +125,9 @@ function buildScene(scene) {
 }
 
 function processControl(controlVal) {
-    if (currentSceneId === undefined) {
+    if (controlVal.includes("end")) {
+        endingId = controlVal.split("_")[1];
+    } else if (currentSceneId === undefined) {
         if (controlVal == -1) {
             let sequenceSearch = $.grep(gameData.story.sequences, (sequence, seqIndex) => {
                 return sequence.locationId == currentLocationId; 
