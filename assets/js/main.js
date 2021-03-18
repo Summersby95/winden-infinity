@@ -1,17 +1,24 @@
 /* jshint esversion: 6 */
 
 let gameData;
-let currentDay = 1;
 let currentLocationId = 0;
-let currentSequenceId;
-let currentSceneId;
+let currentSequenceId = 0;
+let currentSceneId = 0;
 let currentLocation;
 let currentSequence;
 let currentScene;
+let endingId;
 let completedSequences = [];
+let bunkerHandleSeq = [];
+let bunkerSuccessSeq = ['l', 'l', 'r'];
+
+
 
 $(document).ready(function() {
     getGameInfo(startGame);
+    var aboutModal = new bootstrap.Modal(document.getElementById('aboutModal'), {
+        keyboard: false
+});
 });
 
 
