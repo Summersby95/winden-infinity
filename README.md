@@ -368,6 +368,14 @@ Each scene has an informative scene description and an image that accurately ref
 ![User Story 4](/assets/images/user-story-4.png)
 There is a feedback modal where a user can submit feedback to the developer with any suggestions or feedback they have about the game.
 
+### Manual Testing
+
+I used *Chrome Dev Tools* to help debug the site. Debugging involved clicking through scenes and trying all options to make sure they all behaved as intended. This testing highlighted several bugs including.
+
+* Scene transitions not working properly. **Fix:** Investigate code to see what code is causing error. Usually due to variables being incorrectly assigned meaning the scene functions were not processing correctly.
+* Images not loading. **Fix:** Usually incorrect image path name in the story file.
+* No change on click. **Fix:** Usually typos in scene options that weren't processing correctly.
+
 ### Bugs
 
 I encountered a number of bugs during development. Below is a list of a few.
