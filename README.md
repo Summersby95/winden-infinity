@@ -66,6 +66,20 @@ The goal of this project was to make a game which focused on player choice and w
 * Rich player choice
 * Further information about the story
 
+### Design Choices
+
+The game structure and design is heavily influenced by TellTale Games' work including games like *Tales From the Borderlands*, *The Wolf Among Us* and *The Walking Dead* amongst others.
+
+![Wolf Among Us Screenshot](/assets/images/wolf-among-us-screenshot.jpg)
+
+I have always enjoyed their take on the story driven game and their template of scene and options was incorporated into the design.
+
+To achieve this, I decided on a set game container area which would house the scene image and text, and then a seperate controls container, separate from the game container to house the controls which would be generated based on the scene.
+
+A key part of the *Dark* series is recurring locations where significant events in the series take place. I therefore decided to make part of the game exploring various locations pulled from the series, rather than a linear story.
+
+I also wanted the site to focus on the game, with little excess. As such I decided on a one page site with the game as it's main content. I decided to store additional infomation/functionalities in modals as I didn't want to clutter the page with anything else other than the game scene and controls.
+
 
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
