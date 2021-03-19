@@ -210,6 +210,16 @@ A scene looks like this.
 * *About* modal that contains additional information about game
 * *Feedback* modal that allows players to submit feedback about game
 
+### Future Potential Features 
+
+* Expanded story, multiple timelines, timetravel game component
+* Inventory system to store items player finds
+* Scene transition animations
+* Sound/music accompanying scenes
+* Mini games for certain scenes using [JS Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+* Better player choice reactions
+* Save Game Functionality
+
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
