@@ -252,7 +252,7 @@ A scene looks like this.
 * *About* modal that contains additional information about game
 * *Feedback* modal that allows players to submit feedback about game
 
-### Future Potential Features 
+### Future Potential Features
 
 * Expanded story, multiple timelines, timetravel game component
 * Inventory system to store items player finds
@@ -262,7 +262,7 @@ A scene looks like this.
 * Better player choice reactions
 * Save Game Functionality
 
-## Technologies Used 
+## Technologies Used
 
 ### Languages
 
