@@ -100,6 +100,103 @@ I found a site with thousands of images that suited my needs perfectly. The site
 
 ![Baobab Image](/assets/images/baobab.png)
 
+### Wireframing
+
+I used *Balsamiq* to draw up wireframes for this site. I wanted the site to focus on the game, with no excess, the wireframes reflect that. With the one page design that I chose for the site, I designed the wireframes with a minimal nav section, a large game scene area and large buttons beneath them that would wrap depending on the quantity of buttons and the screen size.
+
+You can view more wireframes of additional scenes [here.](/assets/wireframes/dark-wireframes.pdf)
+
+![Wireframe](/assets/images/dark-wireframe.png)
+
+### Data Structure
+
+#### Overview
+
+The story for *Dark* is quite complex outside of the scope of the game. Initially, I envisioned a 13 day, time-travelling story with story sequences at each location on each day, in each timeline. The initial plan for this can be found [here](/assets/misc/story-plan.xlsx).
+
+![Story Plan](/assets/images/story-plan.png)
+
+However, when I began adapting the story, I quickly realized that this would take far too long and I was forced to cut the story down to the size of one day in one timeline. Despite this shortening, the story I finally wrote still to hundreds of scenes. It therefore became necessary to store the story structure in a seperate JSON file.
+
+#### Objects
+
+##### Locations
+
+There are a few different data structures contained in the story json file. The first object type is the location. I started with different locations that are key to the story of *Dark* and then drew up a map of how I would connect them. You can see that map below.
+
+![Location Map](/assets/images/map-diagram.png)
+
+The *Location* objects in the json file have a *locationId*, which is just their position in the *locations* array, a *locationName* which is the name of the location, a *connectedLocations* array which is an array of the *locationId*'s that it is connected to, and an *image* which is the image to be displayed when at the location.
+
+    {
+            "locationId": 0,
+            "locationName": "Kahnwald House",
+            "connectedLocations": [1, 11, 9],
+            "image": "kahnwald_house_white.png"
+    }
+
+The end result looks like this when processed by the game engine.
+
+![Location Example](/assets/images/location-example.png)
+
+##### Sequences
+
+Every location has a corresponding sequence object that will trigger when the player *Enters* the location. Each sequence has a *sequenceId* which refers to it's position in the *sequences* array, a *sequenceName* which is never seen by the player but helps me as a developer keep track, a *locationId* which is the *id* of the location that the sequence occurs at, and a scenes array which contains all the scenes for that sequence.
+
+    {
+                "sequenceId": 4,
+                "sequenceName": "Alexander Tiedeman Encounter",
+                "locationId": 5,
+                "scenes": [
+                    {
+                        "sceneId": 0,
+                        "text": "As you approach the gate entrance to the plant you see a man pull up to the gate in a new Mercedes car. The gate opens for him immediately. As he passes you, he stops and rolls down his window. Alexander Tiedeman leans his head out of the car. 'Hello Jonas, here looking for a job?' He laughs.",
+                        "sceneImage": "city-car.png",
+                        "options": [
+                            {
+                                "optionText": "Just having a look around",
+                                "nextScene": 1,
+                                "dependantVariables": []
+                            },
+                            {
+                                "optionText": "I am",
+                                "nextScene": 2,
+                                "dependantVariables": []
+                            }
+                        ]
+                    }, 
+
+##### Scenes
+
+Scene objects have a *sceneId*, which refers to the scene's position in that sequence's scenes array, a *text* which is the text to be displayed to the player when at that scene, *sceneImage* which refers to the image to be displayed for that scene and an *options* array, which contains the option objects for that scene. *Option* objects have a *optionText* attribute which is the text that the option should display, a *nextScene* which refers to the next scene object that the button click should direct to and a *dependantVariables* array which, initially, was meant to contain an array of variables (conditions) which would have to be met before the option would display for the user. However, due to time constraints, this attribute is not used. 
+
+    {
+        "sceneId": 15,
+        "text": "'You know you don't have to go to school if you don't want to, you still need time to heal' As she walks by you detect the faint smell of aftershave on her neck, certainly not one that you recognise as belonging to your father.",
+        "sceneImage": "perfume_white.png",
+        "options": [
+            {
+                "optionText": "I need to get out of the house.",
+                "nextScene": 16,
+                "dependantVariables": []
+            },
+            {
+                "optionText": "Why is the Milk gone off?",
+                "nextScene": 17,
+                "dependantVariables": []
+            },
+            {
+                "optionText": "Was there someone upstairs with you?",
+                "nextScene": 18,
+                "dependantVariables": []
+            }
+        ]
+    },
+
+A scene looks like this.
+
+![Scene Example](/assets/images/scene-example.png)
+
 
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
