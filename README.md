@@ -86,6 +86,12 @@ The story of *Dark* is quite *dark* (pun intended) and I wanted the colour schem
 
 ![Dark Colour Palette](/assets/images/dark-pallete.png)
 
+#### Fonts
+
+I felt the font for the site should be serious and pointed, mimicing the title of the series. For that I chose [Montserrat](https://fonts.google.com/specimen/Montserrat).
+
+![Dark Title](/assets/images/dark-title.jpg)
+
 
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
