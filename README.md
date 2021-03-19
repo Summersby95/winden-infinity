@@ -237,6 +237,22 @@ A scene looks like this.
 * emailJS
 * JSON
 
+## Testing
+
+### Validatior Testing
+
+#### HTML Validator Testing
+
+I used the [Nu HTML Checker](https://validator.w3.org/nu/) for HTML validation and received a few errors initially. These included:
+
+* *for* attributes must be linked to a non-hidden element with the same *id*. **Fix:** The attributes had typos in the element ids so I amended these
+* Empty *src* attribute for image. **Fix:** The image source is set by the game functions but I added a placeholder image source to satisfy the validator
+* Empty *h5* element. **Fix:** Again, the *h5* text is set by a function, but I put some placeholder text in it to satisfy the validator
+
+All these issues were resolved and the validator ran with no errors or warnings after.
+
+![HTML Validated](/assets/images/html-validated.png)
+
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
