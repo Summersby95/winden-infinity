@@ -6,16 +6,19 @@
 
 ## Contents
 
-* UX
-* Technologies
-* Features
-* Testing
-* Bugs
-* Deployment
-* Credit
+1. [UX](#ux)
+    * [Project Goals](#project-goals)
+    * [User Goals](#user-goals)
+    * [Site Owner Goals](#site-owner-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+2. Technologies
+3. Features
+4. Testing
+5. Bugs
+6. Deployment
+7. Credit
 
 ## UX
----
 
 ### Project Goals
 
