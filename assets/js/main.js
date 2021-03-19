@@ -7,7 +7,6 @@ let currentSequenceId = 0;
 let currentSceneId = 0;
 let currentLocation;
 let currentSequence;
-let currentScene;
 let endingId;
 let completedSequences = [];
 let bunkerHandleSeq = [];
@@ -107,7 +106,6 @@ function startGame() {
 
 // The buildOptions functions builds the button controls based off the options array that it is passed
 function buildOptions(options) {
-    let optionQty = options.length;
     let controlsTemplate = ``;
 
     // we create an empty template literal and add two divs for each option, each containing a button 
