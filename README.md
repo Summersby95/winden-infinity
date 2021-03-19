@@ -2,8 +2,9 @@
 
 ## A Story Game
 
+![Infinity Logo](/assets/images/infinity.png)
+
 ## Contents
----
 
 * UX
 * Technologies
