@@ -60,6 +60,12 @@ The goal of this project was to make a game which focused on player choice and w
 * Site owner contact form
 * Clear page design and outline
 
+#### Expectations
+
+* Clear and consistent colour scheme
+* Rich player choice
+* Further information about the story
+
 
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
