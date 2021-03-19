@@ -326,6 +326,23 @@ Each scene has an informative scene description and an image that accurately ref
 ![User Story 4](/assets/images/user-story-4.png)
 There is a feedback modal where a user can submit feedback to the developer with any suggestions or feedback they have about the game.
 
+### Bugs
+
+I encountered a number of bugs during development. Below is a list of a few.
+
+* **Canvas versus Image element**
+  * Initially the game canvas was a canvas element and the scene text was drawn on the canvas as well as the image. The initial thinking was that I could manipulate the canvas more, produce some cool animations when changing scenes and maybe add a few mini games using the canvas. However, this caused multiple problems including making it difficult to maintain the aspect ratio of the image, text overflowing, drawing cards that the image could sit on proved difficult and adjusting screen size without reloading squished everything. **Fix:** Remove the canvas element, replace with image element, put scene text in sperate div.
+* **Scene-Location Transitioning**
+  * Transitioning between different object types proved difficult at first and the processControl function went through a few iterations before I was able to come up with a solution. **Fix:** Give transition scene/location options a set value (*-1*) and use that as a trigger to tell you to transition, set *currentSceneId*, *currentLocationId*, *currentSequenceId* accordingly so the startGame function recognises the transition.
+* **Text-overflowing scene-text div/button controls**
+  * Initially, I wanted the height of the entire site to be locked to 100vh (fullscreen). However this caused a lot of text overflowing problems and squished buttons which did not respond well on smaller screens. **Fix:** Remove height constraints from elements, add *overflow: scroll* attribute to scene-text-div.
+* **Bunker sequence - recording inputs**
+  * In the bunker sequence there is a handle that has to be turned in a certain combination for it to open. I needed the scene to loop on itself so that it the player could enter the multiple turns required however to do this I had to pass the sceneid parameter back on itself as the controlValue which meant I wasn't recording the players turn direction. **Fix:** Add special case exception to the processControl function for that scene and instead of processing to a new scene, pass the controlVal to an array which is then compared to an array with the correct combination. If they match then the scene transitions.
+
+## Deployment
+
+
+
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
