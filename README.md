@@ -49,11 +49,22 @@ The games that I have enjoyed most growing up have been games that focus on stor
 The next step of course was to craft a story. Initially I looked at Fantasy settings where I could encorporate different features like class selection, combat, inventory systems, weapons and spells. However, on further consideration I realised that the scope and size of such a setting would be difficult to manage given the time frame and so I decided not to persue such a setting. Instead I decided I wanted to simply focus on narrative driven game where dialogue choices would dictate the flow of the game. At the time, I was engrossed in a Netflix show called *Dark*. *Dark* is a sci-fi series, with such elements as time travel, quantum theory and the likes abound, but it never gets too carried away with the complex scinence surrounding it's central plot, instead focusing on the interactions between it's characters and the consequences of the decisions they make. I felt it was a perfect story to adapt for my game.
 
 However, the story of *Dark* is extremely complex and would be difficult to explain outside of the context of a game, so I was forced to heavily simplify the main story to keep the size and scope of the game manageable and focus on key events and scenarios rather than delving too heavily into it's complex story.
+
+## Finished Site
+
+### Desktop
+
+![Finished Site Desktop](/assets/images/finished-site-desktop.png)
+
+### Mobile
+
+![Finished Site Mobile](/assets/images/finished-site-mobile.png)
+
 ## UX
 
 ### Project Goals
 
-The goal of this project was to make a game which focused on player choice and which plays out differently depending on the choices the player makes. The story in this game is a loose adaptation of the Netflix series [Dark](https://www.youtube.com/watch?v=ESEUoa-mz2c), heavily simplified in order to make it manageable. 
+The goal of this project was to make a game which focused on player choice and which plays out differently depending on the choices the player makes. The story in this game is a loose adaptation of the Netflix series [Dark](https://www.youtube.com/watch?v=ESEUoa-mz2c), heavily simplified in order to make it manageable.
 
 ### User Goals
 
