@@ -269,6 +269,14 @@ Running the validator through direct input of my stylesheet yielded no errors.
 
 ![CSS Validated](/assets/images/css-validated.png)
 
+#### JS Validator Testing
+
+I used [JSHint](jshint.com) for JavaScript validation testing, I also used the JSHint extension in VS Code during development.
+
+I received two warnings for unused variables when validated on the JSHint website. **Fix:** I removed the *optionQty* and *currentScene* variables.
+
+I received no other errors or warnings.
+
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
