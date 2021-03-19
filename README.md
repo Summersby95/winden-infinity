@@ -210,7 +210,7 @@ Every location has a corresponding sequence object that will trigger when the pl
 
 ##### Scenes
 
-Scene objects have a *sceneId*, which refers to the scene's position in that sequence's scenes array, a *text* which is the text to be displayed to the player when at that scene, *sceneImage* which refers to the image to be displayed for that scene and an *options* array, which contains the option objects for that scene. *Option* objects have a *optionText* attribute which is the text that the option should display, a *nextScene* which refers to the next scene object that the button click should direct to and a *dependantVariables* array which, initially, was meant to contain an array of variables (conditions) which would have to be met before the option would display for the user. However, due to time constraints, this attribute is not used. 
+Scene objects have a *sceneId*, which refers to the scene's position in that sequence's scenes array, a *text* which is the text to be displayed to the player when at that scene, *sceneImage* which refers to the image to be displayed for that scene and an *options* array, which contains the option objects for that scene. *Option* objects have a *optionText* attribute which is the text that the option should display, a *nextScene* which refers to the next scene object that the button click should direct to and a *dependantVariables* array which, initially, was meant to contain an array of variables (conditions) which would have to be met before the option would display for the user. However, due to time constraints, this attribute is not used.
 
     {
         "sceneId": 15,
