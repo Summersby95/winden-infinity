@@ -22,7 +22,7 @@
 
 ### Project Goals
 
-The goal of this project was to make a game which focused on player choice and which plays out differently depending on the choices the player makes. The story in this game is a loose adaptation of the Netflix series Dark, heavily simplified in order to make it manageable.
+The goal of this project was to make a game which focused on player choice and which plays out differently depending on the choices the player makes. The story in this game is a loose adaptation of the Netflix series [Dark](https://www.youtube.com/watch?v=ESEUoa-mz2c), heavily simplified in order to make it manageable. 
 
 ### User Goals
 
