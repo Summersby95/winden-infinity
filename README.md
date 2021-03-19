@@ -80,6 +80,12 @@ A key part of the *Dark* series is recurring locations where significant events 
 
 I also wanted the site to focus on the game, with little excess. As such I decided on a one page site with the game as it's main content. I decided to store additional infomation/functionalities in modals as I didn't want to clutter the page with anything else other than the game scene and controls.
 
+#### Colours  
+
+The story of *Dark* is quite *dark* (pun intended) and I wanted the colour scheme of the site to reflect that. As such, I went for a dark black/grey colour scheme for the site, contrasted with the off-white/white colour of the text and images.
+
+![Dark Colour Palette](/assets/images/dark-pallete.png)
+
 
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
