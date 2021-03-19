@@ -163,3 +163,8 @@ section {
 .about-link:hover {
     color: var(--black-game);
 }
+
+.yt-player {
+    width: 100%;
+    height: 350;
+}
