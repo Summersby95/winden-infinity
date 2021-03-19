@@ -26,9 +26,18 @@ The goal of this project was to make a game which focused on player choice and w
 
 ### User Goals
 
+* Be engaged with an interesting story
+* Easy to use controls
+* Images and text that fit the scene
+* Choices that have a tangible impact on the game
+* Endings that fit the choices I made
+* Contact the developer to give feedback
+* Information about the inspiration behind the game
+
+### User Stories
+
 * As a user, I want to be able to play a story driven game.
 * As a user, I want to be able to make choices as part of the game and I want my choices to impact the story of the game.
-* As a user, I want to be able to save my game and continue where I left off later.
 * As a user, I want each scene to be descriptive and have images to set the scene for me and help immerse me in the game.
 * As a user, I want to be able to contact the game maker with suggestions or feedback I have about the game.
 
