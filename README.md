@@ -253,6 +253,22 @@ All these issues were resolved and the validator ran with no errors or warnings 
 
 ![HTML Validated](/assets/images/html-validated.png)
 
+#### CSS Validator Testing
+
+I used the [W3C Jigsaw CSS Validation Service](http://jigsaw.w3.org/css-validator/) for CSS validation. I received a number of errors, however most of them I could not resolve as the errors were in the *Bootstrap* CSS library.
+
+![Bootstrap CSS Errors](/assets/images/css-validator-errors.png)
+
+There was also an issue with one of my css classes, namely my *yt-player* class which had was missing a dimension for the height. **Fix:** I added the *px* postfix to the attribute which cleared the error.
+
+I also received five warnings for *unknown vendor extensions* for my root variables. I Googled this error but could not find a fix.
+
+![Validator Warnings](/assets/images/css-validator-warnings.png)
+
+Running the validator through direct input of my stylesheet yielded no errors.
+
+![CSS Validated](/assets/images/css-validated.png)
+
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
