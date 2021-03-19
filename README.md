@@ -136,7 +136,7 @@ I felt the font for the site should be serious and pointed, mimicing the title o
 
 #### Images
 
-For the scene images, I didn't want to use images pulled from multiple sources as I felt it would ruin the consistency and theme of the site. Keeping the theme and scene images consistent in format, colour and size was very important to me as I felt it would help immerse the player in the experience. 
+For the scene images, I didn't want to use images pulled from multiple sources as I felt it would ruin the consistency and theme of the site. Keeping the theme and scene images consistent in format, colour and size was very important to me as I felt it would help immerse the player in the experience.
 
 I found a site with thousands of images that suited my needs perfectly. The site is [game-icons.net](https://game-icons.net/). It is a library of game icons available under the creative commons licence and it's scope is quite breathtaking. It also has image parameters which can be changed to suit different needs. It was perfect for my needs.
 
