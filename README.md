@@ -277,6 +277,18 @@ I received two warnings for unused variables when validated on the JSHint websit
 
 I received no other errors or warnings.
 
+### Performance Testing - Lighthouse Report
+
+Using the *Chrome Dev Tools*, I generated a *Lighthouse Report* which highlighted a number of issues.
+
+* **Best Practice:** Images should have the same aspect ratio as the original image. **Fix:** I changed the width of my logo to keep the aspect ratio of the image the same.
+* **SEO:** Site should have a *meta* description. **Fix:** I added a meta description to the head of the page.
+* **Best Practices:** Issues were logged to the Issues panel. **Fix:** Unfortunately, the issues were due to the embedded YouTube player and I could not resolve them.
+
+After resolving these, I ran the lighthouse report again and got green scores in all sections.
+
+![Lighthouse Report](/assets/images/lighthouse-report.png)
+
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
