@@ -391,7 +391,35 @@ I encountered a number of bugs during development. Below is a list of a few.
 
 ## Deployment
 
+This project was deployed using [GitHub Pages](https://pages.github.com/). Below you can find the steps I took to deploy the project.
 
+1. Navigate to [GitHub](github.com)
+2. Sign in using your username and password *(if not already signed in)*
+3. Navigate to the *Your Repositories* tab using the dropdown menu up the top right of screen.
+4. Select the project repository that you wish to deploy, in my case it was *winden-infinity*
+5. In the repository page, navigate to the *Settings* tab
+6. On the repository *Settings* page, scroll down to the *Github Pages* section.
+7. In the *Source* section, choose the branch of the repository that you wish to deploy. In my case it was the *master* branch.
+8. Click the *Save* button.
+9. The page will reload and scrolling down to the *GitHub Pages* section will display a link with the deployed site. *(This may take a few minutes for the link to become active)*
+
+### Running Locally
+
+To run this project locally please follow the following steps.
+
+1. Navigate to the repository page [here](https://github.com/Summersby95/winden-infinity)
+2. Under the *Code* dropdown at the top of the repository, copy the *HTTPS* link to the repository
+3. Open your text editor or IDE
+4. Run a *Git: Clone* command
+5. Paste the *URL* that you copied into the link input
+6. Choose a location on your machine to store the repository
+7. Install a *Live Server* package for your text editor or IDE
+8. Open the *index.html* page in the cloned repository
+9. Start the *Live Server* on the *index.html* page
+10. Edit the files to your hearts content!
+
+You can also clone the repository using the following code.
+```gh repo clone Summersby95/winden-infinity```
 
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
