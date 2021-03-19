@@ -6,17 +6,39 @@
 
 ## Contents
 
-1. [UX](#ux)
+1. [Project Inception](#project-inception)
+2. [UX](#ux)
     * [Project Goals](#project-goals)
     * [User Goals](#user-goals)
     * [Site Owner Goals](#site-owner-goals)
     * [User Requirements and Expectations](#user-requirements-and-expectations)
-2. Technologies
-3. Features
-4. Testing
-5. Bugs
-6. Deployment
-7. Credit
+    * [Design Choices](#design-choices)
+      * [Colours](#colours)
+      * [Fonts](#fonts)
+      * [Images](#images)
+    * [Wireframing](#wireframing)
+    * [Data Structure](#data-structure)
+      * [Overview](#overview)
+      * [Objects](#objects)
+        * [Locations](#locations)
+        * [Sequences](#sequences)
+        * [Scenes](#scenes)
+3. [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Future Potential Features](#future-potential-features)
+4. [Technologies](#technologies-used)
+    * [Languages](#languages)
+    * [Libraries/Tools](#librariestools)
+5. [Testing](#testing)
+    * [Validator Testing](#validator-testing)
+    * [Performance Testing](#performance-testing-lighthouse-report)
+    * [Feature Testing](#feature-testing)
+    * [User Story Testing](#user-story-testing)
+    * [Manual Testing](#manual-testing)
+    * [Bugs](#bugs)
+6. [Deployment](#deployment)
+    * [Running Locally](#running-locally)
+7. [Credits](#credits)
 
 ## UX
 
