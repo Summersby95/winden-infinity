@@ -308,6 +308,24 @@ After resolving these, I ran the lighthouse report again and got green scores in
 * *Feedback* modal that allows players to submit feedback about game
   * There is a *Feedback* modal where the players can submit feedback about the game to the developer
 
+### User Story Testing
+
+* **As a user, I want to be able to play a story driven game.**
+![User Story 1](/assets/images/user-story-1.png)
+The player is immediately brought into a story driven game where they have agency.
+
+* **As a user, I want to be able to make choices as part of the game and I want my choices to impact the story of the game.**
+![User Story 2](/assets/images/user-story-2.png)
+The player can make decisions throughout the game that impacts their experience.
+
+* **As a user, I want each scene to be descriptive and have images to set the scene for me and help immerse me in the game.**
+![User Story 3](/assets/images/user-story-3.png)
+Each scene has an informative scene description and an image that accurately reflects what is happening in the scene.
+
+* **As a user, I want to be able to contact the game maker with suggestions or feedback I have about the game.**
+![User Story 4](/assets/images/user-story-4.png)
+There is a feedback modal where a user can submit feedback to the developer with any suggestions or feedback they have about the game.
+
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
