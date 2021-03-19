@@ -289,6 +289,25 @@ After resolving these, I ran the lighthouse report again and got green scores in
 
 ![Lighthouse Report](/assets/images/lighthouse-report.png)
 
+### Feature Testing
+
+* Game that changes reacts to user input.
+  * I validated this by developing the functions to process user controls. I initially ran into bugs and problems with scene-location transitions which I was able to resolve.
+* Story adapted from TV series
+  * I wrote the game story, adapted heavily from the original series. I then created a json file and a data structure to store the story
+* Player choices in game that impact story
+  * Player choices within the game can result in different endings being delivered, different dialog been given to the player and different scenarios being presented.
+* Endings that reflect player choices
+  * Depending on the choices the player, the game can end in different ways.
+* Consistent and thematically correct design
+  * Through a consistent colour palette throughout the site, I believe there is a clear and consisitent theme to the site.
+* Simple, easy to understand interface
+  * Buttons are large, the UI is minimal, there is good contrast between the text colour and background colours. There is also a few starting scenes introducing the player to the game and how it works. All this contributes to ease of control on part of the player as well as a clear goal.
+* *About* modal that contains additional information about game
+  * There is an *About* modal which contains further information about the game and series.
+* *Feedback* modal that allows players to submit feedback about game
+  * There is a *Feedback* modal where the players can submit feedback about the game to the developer
+
 
 When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
 
