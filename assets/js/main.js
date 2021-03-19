@@ -271,15 +271,32 @@ function validateEmail(email) {
     return (false);
 }
 
+// sendEmail function using emailJS API
 function sendEmail() {
+    let progressField = $(".progress-text");
+    $(progressField).html("In Progress...");
+    $(progressField).css("color", "orange");
+
+    $(".form-control").prop('disabled', true);
+
     emailjs.send("service_hs5tljx","template_o9nml2i", {
-        from_name: $("#emailAddress").val(),
-        message_text: $("#fromName").val(),
-        from_email: $("#messageText").html()
+        from_name: $("#fromName").val(),
+        message_text: $("#messageText").val(),
+        from_email: $("#emailAddress").val()
     })
         .then(function() {
-            console.log('Success!');
+            $(progressField).html("Email Sent! This window will now close");
+            $(progressField).css("color", "green");
+
+            window.setTimeout(function() {
+                $("#feedbackModal").modal('hide');
+                $(".form-control").prop('disabled', false);
+            }, 5000);
+
         }, function(error) {
-            console.log('Failed...', error);
+            $(progressField).html("An error occured...");
+            $(progressField).css("color", "red");
+
+            $(".form-control").prop('disabled', false);
         });
 }
