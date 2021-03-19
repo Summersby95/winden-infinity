@@ -210,7 +210,7 @@ function processControl(controlVal) {
         // we first check if we are in the bunker sequence attempting to open the door
         // if we are we want to check if the player has entered the correct combination
         // if they have then we manually increment the scene for them
-        if (currentSequenceId == 9 && currentSceneId == 2) {
+        if (currentSequenceId == 9 && currentSceneId == 2 && controlVal != '10') {
             bunkerHandleSeq.push(controlVal);
             if (arrayCheck(bunkerSuccessSeq, bunkerHandleSeq)) {
                 currentSceneId = 3;
