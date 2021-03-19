@@ -40,6 +40,15 @@
     * [Running Locally](#running-locally)
 7. [Credits](#credits)
 
+## Project Inception
+
+When I was thinking about ideas for my second milestone project my immediate conclusion was that I wanted to make a game. I have been playing games as long as I can remember and, although I'm not sure I want to make games full-time, I was sure I wanted to try my hand at making one for myself. With MS2 focusing so much on interactivity through Javascript and manipulation of the DOM, I decided that this was the perfect time to test this. I also had previous experience with JavaScript and so felt confident I could pull it off.
+
+The games that I have enjoyed most growing up have been games that focus on story and player choice and so I decided that I wanted my game to focus on dialogue and text rather than complex animations and art which would take too much time to do. In this regard I looked at old school text based role playing games like *Zork*, *A Hitchiker's Guide To The Galaxy* and others. However, I also focused on modern examples of the genre. In particular, games like TellTale Games'  *The Wolf Among Us*, *The Walking Dead*, *Tales From The Borderlands* as well as games like *Disco Elysium* and RPG classics like the *Fallout* and *Skyrim* series. The TellTale Games template felt like a good fit for the game I envisioned, their focus on the story, the scenes and the dialogue options within that matched the project I envisioned.
+
+The next step of course was to craft a story. Initially I looked at Fantasy settings where I could encorporate different features like class selection, combat, inventory systems, weapons and spells. However, on further consideration I realised that the scope and size of such a setting would be difficult to manage given the time frame and so I decided not to persue such a setting. Instead I decided I wanted to simply focus on narrative driven game where dialogue choices would dictate the flow of the game. At the time, I was engrossed in a Netflix show called *Dark*. *Dark* is a sci-fi series, with such elements as time travel, quantum theory and the likes abound, but it never gets too carried away with the complex scinence surrounding it's central plot, instead focusing on the interactions between it's characters and the consequences of the decisions they make. I felt it was a perfect story to adapt for my game.
+
+However, the story of *Dark* is extremely complex and would be difficult to explain outside of the context of a game, so I was forced to heavily simplify the main story to keep the size and scope of the game manageable and focus on key events and scenarios rather than delving too heavily into it's complex story.
 ## UX
 
 ### Project Goals
